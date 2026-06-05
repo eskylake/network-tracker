@@ -1,0 +1,5927 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "config.go",
+      "file_type": "code",
+      "source_file": "internal/config/config.go",
+      "source_location": "L1",
+      "id": "internal_config_config_go",
+      "community": 4,
+      "norm_label": "config.go"
+    },
+    {
+      "label": "Duration",
+      "file_type": "code",
+      "source_file": "internal/config/config.go",
+      "source_location": "L12",
+      "id": "config_duration",
+      "community": 4,
+      "norm_label": "duration"
+    },
+    {
+      "label": ".MarshalYAML()",
+      "file_type": "code",
+      "source_file": "internal/config/config.go",
+      "source_location": "L16",
+      "id": "config_duration_marshalyaml",
+      "community": 4,
+      "norm_label": ".marshalyaml()"
+    },
+    {
+      "label": ".UnmarshalYAML()",
+      "file_type": "code",
+      "source_file": "internal/config/config.go",
+      "source_location": "L20",
+      "id": "config_duration_unmarshalyaml",
+      "community": 4,
+      "norm_label": ".unmarshalyaml()"
+    },
+    {
+      "label": "Config",
+      "file_type": "code",
+      "source_file": "internal/config/config.go",
+      "source_location": "L29",
+      "id": "config_config",
+      "community": 4,
+      "norm_label": "config"
+    },
+    {
+      "label": "Default()",
+      "file_type": "code",
+      "source_file": "internal/config/config.go",
+      "source_location": "L44",
+      "id": "config_config_default",
+      "community": 4,
+      "norm_label": "default()"
+    },
+    {
+      "label": "Load()",
+      "file_type": "code",
+      "source_file": "internal/config/config.go",
+      "source_location": "L65",
+      "id": "config_config_load",
+      "community": 4,
+      "norm_label": "load()"
+    },
+    {
+      "label": "Path()",
+      "file_type": "code",
+      "source_file": "internal/config/config.go",
+      "source_location": "L99",
+      "id": "config_config_path",
+      "community": 4,
+      "norm_label": "path()"
+    },
+    {
+      "label": "normalize()",
+      "file_type": "code",
+      "source_file": "internal/config/config.go",
+      "source_location": "L107",
+      "id": "config_config_normalize",
+      "community": 4,
+      "norm_label": "normalize()"
+    },
+    {
+      "label": "model.go",
+      "file_type": "code",
+      "source_file": "internal/app/model.go",
+      "source_location": "L1",
+      "id": "internal_app_model_go",
+      "community": 0,
+      "norm_label": "model.go"
+    },
+    {
+      "label": "model",
+      "file_type": "code",
+      "source_file": "internal/app/model.go",
+      "source_location": "L18",
+      "id": "internal_app_model_go_app_model",
+      "community": 0,
+      "norm_label": "model"
+    },
+    {
+      "label": "refreshMsg",
+      "file_type": "code",
+      "source_file": "internal/app/model.go",
+      "source_location": "L46",
+      "id": "app_refreshmsg",
+      "community": 0,
+      "norm_label": "refreshmsg"
+    },
+    {
+      "label": "tickMsg",
+      "file_type": "code",
+      "source_file": "internal/app/model.go",
+      "source_location": "L52",
+      "id": "app_tickmsg",
+      "community": 0,
+      "norm_label": "tickmsg"
+    },
+    {
+      "label": "publicIPTickMsg",
+      "file_type": "code",
+      "source_file": "internal/app/model.go",
+      "source_location": "L53",
+      "id": "app_publiciptickmsg",
+      "community": 0,
+      "norm_label": "publiciptickmsg"
+    },
+    {
+      "label": "publicIPRefreshMsg",
+      "file_type": "code",
+      "source_file": "internal/app/model.go",
+      "source_location": "L55",
+      "id": "app_publiciprefreshmsg",
+      "community": 0,
+      "norm_label": "publiciprefreshmsg"
+    },
+    {
+      "label": "pingMsg",
+      "file_type": "code",
+      "source_file": "internal/app/model.go",
+      "source_location": "L60",
+      "id": "app_pingmsg",
+      "community": 0,
+      "norm_label": "pingmsg"
+    },
+    {
+      "label": "wifiScanMsg",
+      "file_type": "code",
+      "source_file": "internal/app/model.go",
+      "source_location": "L65",
+      "id": "app_wifiscanmsg",
+      "community": 0,
+      "norm_label": "wifiscanmsg"
+    },
+    {
+      "label": "networkSnapshot",
+      "file_type": "code",
+      "source_file": "internal/app/model.go",
+      "source_location": "L71",
+      "id": "app_networksnapshot",
+      "community": 0,
+      "norm_label": "networksnapshot"
+    },
+    {
+      "label": "New()",
+      "file_type": "code",
+      "source_file": "internal/app/model.go",
+      "source_location": "L76",
+      "id": "app_model_new",
+      "community": 4,
+      "norm_label": "new()"
+    },
+    {
+      "label": ".Init()",
+      "file_type": "code",
+      "source_file": "internal/app/model.go",
+      "source_location": "L92",
+      "id": "app_model_init",
+      "community": 0,
+      "norm_label": ".init()"
+    },
+    {
+      "label": ".Update()",
+      "file_type": "code",
+      "source_file": "internal/app/model.go",
+      "source_location": "L102",
+      "id": "app_model_update",
+      "community": 0,
+      "norm_label": ".update()"
+    },
+    {
+      "label": ".startWiFiScanIfNeeded()",
+      "file_type": "code",
+      "source_file": "internal/app/model.go",
+      "source_location": "L260",
+      "id": "app_model_startwifiscanifneeded",
+      "community": 0,
+      "norm_label": ".startwifiscanifneeded()"
+    },
+    {
+      "label": ".refresh()",
+      "file_type": "code",
+      "source_file": "internal/app/model.go",
+      "source_location": "L268",
+      "id": "app_model_refresh",
+      "community": 0,
+      "norm_label": ".refresh()"
+    },
+    {
+      "label": ".refreshPublicIP()",
+      "file_type": "code",
+      "source_file": "internal/app/model.go",
+      "source_location": "L277",
+      "id": "app_model_refreshpublicip",
+      "community": 0,
+      "norm_label": ".refreshpublicip()"
+    },
+    {
+      "label": ".scanWiFi()",
+      "file_type": "code",
+      "source_file": "internal/app/model.go",
+      "source_location": "L285",
+      "id": "app_model_scanwifi",
+      "community": 0,
+      "norm_label": ".scanwifi()"
+    },
+    {
+      "label": "tick()",
+      "file_type": "code",
+      "source_file": "internal/app/model.go",
+      "source_location": "L294",
+      "id": "app_model_tick",
+      "community": 0,
+      "norm_label": "tick()"
+    },
+    {
+      "label": "publicIPTick()",
+      "file_type": "code",
+      "source_file": "internal/app/model.go",
+      "source_location": "L298",
+      "id": "app_model_publiciptick",
+      "community": 0,
+      "norm_label": "publiciptick()"
+    },
+    {
+      "label": "pingOnce()",
+      "file_type": "code",
+      "source_file": "internal/app/model.go",
+      "source_location": "L302",
+      "id": "app_model_pingonce",
+      "community": 0,
+      "norm_label": "pingonce()"
+    },
+    {
+      "label": "runPing()",
+      "file_type": "code",
+      "source_file": "internal/app/model.go",
+      "source_location": "L306",
+      "id": "app_model_runping",
+      "community": 0,
+      "norm_label": "runping()"
+    },
+    {
+      "label": "compactPingOutput()",
+      "file_type": "code",
+      "source_file": "internal/app/model.go",
+      "source_location": "L317",
+      "id": "app_model_compactpingoutput",
+      "community": 0,
+      "norm_label": "compactpingoutput()"
+    },
+    {
+      "label": "snapshotFromResults()",
+      "file_type": "code",
+      "source_file": "internal/app/model.go",
+      "source_location": "L339",
+      "id": "app_model_snapshotfromresults",
+      "community": 0,
+      "norm_label": "snapshotfromresults()"
+    },
+    {
+      "label": ".String()",
+      "file_type": "code",
+      "source_file": "internal/app/model.go",
+      "source_location": "L352",
+      "id": "app_networksnapshot_string",
+      "community": 0,
+      "norm_label": ".string()"
+    },
+    {
+      "label": "prependLog()",
+      "file_type": "code",
+      "source_file": "internal/app/model.go",
+      "source_location": "L356",
+      "id": "app_model_prependlog",
+      "community": 0,
+      "norm_label": "prependlog()"
+    },
+    {
+      "label": "mergeResults()",
+      "file_type": "code",
+      "source_file": "internal/app/model.go",
+      "source_location": "L360",
+      "id": "app_model_mergeresults",
+      "community": 12,
+      "norm_label": "mergeresults()"
+    },
+    {
+      "label": "prependBounded()",
+      "file_type": "code",
+      "source_file": "internal/app/model.go",
+      "source_location": "L384",
+      "id": "app_model_prependbounded",
+      "community": 0,
+      "norm_label": "prependbounded()"
+    },
+    {
+      "label": "timestamped()",
+      "file_type": "code",
+      "source_file": "internal/app/model.go",
+      "source_location": "L392",
+      "id": "app_model_timestamped",
+      "community": 0,
+      "norm_label": "timestamped()"
+    },
+    {
+      "label": "max()",
+      "file_type": "code",
+      "source_file": "internal/app/model.go",
+      "source_location": "L396",
+      "id": "app_model_max",
+      "community": 1,
+      "norm_label": "max()"
+    },
+    {
+      "label": "view_test.go",
+      "file_type": "code",
+      "source_file": "internal/app/view_test.go",
+      "source_location": "L1",
+      "id": "internal_app_view_test_go",
+      "community": 1,
+      "norm_label": "view_test.go"
+    },
+    {
+      "label": "TestPadUsesVisualWidthWithANSI()",
+      "file_type": "code",
+      "source_file": "internal/app/view_test.go",
+      "source_location": "L12",
+      "id": "app_view_test_testpadusesvisualwidthwithansi",
+      "community": 1,
+      "norm_label": "testpadusesvisualwidthwithansi()"
+    },
+    {
+      "label": "TestRenderWiFiNetworkTableAlignsColumns()",
+      "file_type": "code",
+      "source_file": "internal/app/view_test.go",
+      "source_location": "L19",
+      "id": "app_view_test_testrenderwifinetworktablealignscolumns",
+      "community": 1,
+      "norm_label": "testrenderwifinetworktablealignscolumns()"
+    },
+    {
+      "label": "TestWiFiVisibleWindowKeepsSelectionCentered()",
+      "file_type": "code",
+      "source_file": "internal/app/view_test.go",
+      "source_location": "L38",
+      "id": "app_view_test_testwifivisiblewindowkeepsselectioncentered",
+      "community": 1,
+      "norm_label": "testwifivisiblewindowkeepsselectioncentered()"
+    },
+    {
+      "label": "view.go",
+      "file_type": "code",
+      "source_file": "internal/app/view.go",
+      "source_location": "L1",
+      "id": "internal_app_view_go",
+      "community": 1,
+      "norm_label": "view.go"
+    },
+    {
+      "label": "model",
+      "file_type": "code",
+      "source_file": "internal/app/view.go",
+      "source_location": "L21",
+      "id": "internal_app_view_go_app_model",
+      "community": 1,
+      "norm_label": "model"
+    },
+    {
+      "label": ".View()",
+      "file_type": "code",
+      "source_file": "internal/app/view.go",
+      "source_location": "L21",
+      "id": "app_model_view",
+      "community": 1,
+      "norm_label": ".view()"
+    },
+    {
+      "label": ".renderStatusBar()",
+      "file_type": "code",
+      "source_file": "internal/app/view.go",
+      "source_location": "L73",
+      "id": "app_model_renderstatusbar",
+      "community": 1,
+      "norm_label": ".renderstatusbar()"
+    },
+    {
+      "label": ".renderWiFiStatusValue()",
+      "file_type": "code",
+      "source_file": "internal/app/view.go",
+      "source_location": "L85",
+      "id": "app_model_renderwifistatusvalue",
+      "community": 1,
+      "norm_label": ".renderwifistatusvalue()"
+    },
+    {
+      "label": "wifiSignalLabel()",
+      "file_type": "code",
+      "source_file": "internal/app/view.go",
+      "source_location": "L94",
+      "id": "app_view_wifisignallabel",
+      "community": 1,
+      "norm_label": "wifisignallabel()"
+    },
+    {
+      "label": ".renderTabs()",
+      "file_type": "code",
+      "source_file": "internal/app/view.go",
+      "source_location": "L106",
+      "id": "app_model_rendertabs",
+      "community": 1,
+      "norm_label": ".rendertabs()"
+    },
+    {
+      "label": ".renderOverview()",
+      "file_type": "code",
+      "source_file": "internal/app/view.go",
+      "source_location": "L118",
+      "id": "app_model_renderoverview",
+      "community": 1,
+      "norm_label": ".renderoverview()"
+    },
+    {
+      "label": ".renderResults()",
+      "file_type": "code",
+      "source_file": "internal/app/view.go",
+      "source_location": "L151",
+      "id": "app_model_renderresults",
+      "community": 1,
+      "norm_label": ".renderresults()"
+    },
+    {
+      "label": ".renderWiFiScan()",
+      "file_type": "code",
+      "source_file": "internal/app/view.go",
+      "source_location": "L171",
+      "id": "app_model_renderwifiscan",
+      "community": 1,
+      "norm_label": ".renderwifiscan()"
+    },
+    {
+      "label": ".wifiTableWidth()",
+      "file_type": "code",
+      "source_file": "internal/app/view.go",
+      "source_location": "L228",
+      "id": "app_model_wifitablewidth",
+      "community": 1,
+      "norm_label": ".wifitablewidth()"
+    },
+    {
+      "label": "wifiVisibleWindow()",
+      "file_type": "code",
+      "source_file": "internal/app/view.go",
+      "source_location": "L236",
+      "id": "app_view_wifivisiblewindow",
+      "community": 1,
+      "norm_label": "wifivisiblewindow()"
+    },
+    {
+      "label": "renderWiFiNetworkTable()",
+      "file_type": "code",
+      "source_file": "internal/app/view.go",
+      "source_location": "L252",
+      "id": "app_view_renderwifinetworktable",
+      "community": 1,
+      "norm_label": "renderwifinetworktable()"
+    },
+    {
+      "label": "fallback()",
+      "file_type": "code",
+      "source_file": "internal/app/view.go",
+      "source_location": "L289",
+      "id": "app_view_fallback",
+      "community": 1,
+      "norm_label": "fallback()"
+    },
+    {
+      "label": "boolLabel()",
+      "file_type": "code",
+      "source_file": "internal/app/view.go",
+      "source_location": "L296",
+      "id": "app_view_boollabel",
+      "community": 1,
+      "norm_label": "boollabel()"
+    },
+    {
+      "label": ".renderPing()",
+      "file_type": "code",
+      "source_file": "internal/app/view.go",
+      "source_location": "L303",
+      "id": "app_model_renderping",
+      "community": 1,
+      "norm_label": ".renderping()"
+    },
+    {
+      "label": ".renderLogs()",
+      "file_type": "code",
+      "source_file": "internal/app/view.go",
+      "source_location": "L328",
+      "id": "app_model_renderlogs",
+      "community": 1,
+      "norm_label": ".renderlogs()"
+    },
+    {
+      "label": ".filteredResults()",
+      "file_type": "code",
+      "source_file": "internal/app/view.go",
+      "source_location": "L345",
+      "id": "app_model_filteredresults",
+      "community": 1,
+      "norm_label": ".filteredresults()"
+    },
+    {
+      "label": "renderResultTable()",
+      "file_type": "code",
+      "source_file": "internal/app/view.go",
+      "source_location": "L362",
+      "id": "app_view_renderresulttable",
+      "community": 1,
+      "norm_label": "renderresulttable()"
+    },
+    {
+      "label": "renderIPPanel()",
+      "file_type": "code",
+      "source_file": "internal/app/view.go",
+      "source_location": "L390",
+      "id": "app_view_renderippanel",
+      "community": 1,
+      "norm_label": "renderippanel()"
+    },
+    {
+      "label": "kv()",
+      "file_type": "code",
+      "source_file": "internal/app/view.go",
+      "source_location": "L419",
+      "id": "app_view_kv",
+      "community": 1,
+      "norm_label": "kv()"
+    },
+    {
+      "label": "parseDetails()",
+      "file_type": "code",
+      "source_file": "internal/app/view.go",
+      "source_location": "L426",
+      "id": "app_view_parsedetails",
+      "community": 1,
+      "norm_label": "parsedetails()"
+    },
+    {
+      "label": "findResult()",
+      "file_type": "code",
+      "source_file": "internal/app/view.go",
+      "source_location": "L438",
+      "id": "app_view_findresult",
+      "community": 1,
+      "norm_label": "findresult()"
+    },
+    {
+      "label": "hasResult()",
+      "file_type": "code",
+      "source_file": "internal/app/view.go",
+      "source_location": "L447",
+      "id": "app_view_hasresult",
+      "community": 1,
+      "norm_label": "hasresult()"
+    },
+    {
+      "label": "truncate()",
+      "file_type": "code",
+      "source_file": "internal/app/view.go",
+      "source_location": "L452",
+      "id": "app_view_truncate",
+      "community": 1,
+      "norm_label": "truncate()"
+    },
+    {
+      "label": "pad()",
+      "file_type": "code",
+      "source_file": "internal/app/view.go",
+      "source_location": "L463",
+      "id": "app_view_pad",
+      "community": 1,
+      "norm_label": "pad()"
+    },
+    {
+      "label": "lineCount()",
+      "file_type": "code",
+      "source_file": "internal/app/view.go",
+      "source_location": "L471",
+      "id": "app_view_linecount",
+      "community": 1,
+      "norm_label": "linecount()"
+    },
+    {
+      "label": "clampLines()",
+      "file_type": "code",
+      "source_file": "internal/app/view.go",
+      "source_location": "L478",
+      "id": "app_view_clamplines",
+      "community": 1,
+      "norm_label": "clamplines()"
+    },
+    {
+      "label": "min()",
+      "file_type": "code",
+      "source_file": "internal/app/view.go",
+      "source_location": "L491",
+      "id": "app_view_min",
+      "community": 1,
+      "norm_label": "min()"
+    },
+    {
+      "label": "model_test.go",
+      "file_type": "code",
+      "source_file": "internal/app/model_test.go",
+      "source_location": "L1",
+      "id": "internal_app_model_test_go",
+      "community": 12,
+      "norm_label": "model_test.go"
+    },
+    {
+      "label": "TestMergeResultsReplacesExistingByName()",
+      "file_type": "code",
+      "source_file": "internal/app/model_test.go",
+      "source_location": "L10",
+      "id": "app_model_test_testmergeresultsreplacesexistingbyname",
+      "community": 12,
+      "norm_label": "testmergeresultsreplacesexistingbyname()"
+    },
+    {
+      "label": "TestMergeResultsAppendsNewResults()",
+      "file_type": "code",
+      "source_file": "internal/app/model_test.go",
+      "source_location": "L29",
+      "id": "app_model_test_testmergeresultsappendsnewresults",
+      "community": 12,
+      "norm_label": "testmergeresultsappendsnewresults()"
+    },
+    {
+      "label": "TestFilteredResultsExcludesWiFiFromConnectivityTab()",
+      "file_type": "code",
+      "source_file": "internal/app/model_test.go",
+      "source_location": "L39",
+      "id": "app_model_test_testfilteredresultsexcludeswififromconnectivitytab",
+      "community": 12,
+      "norm_label": "testfilteredresultsexcludeswififromconnectivitytab()"
+    },
+    {
+      "label": "TestRenderStatusBarShowsWiFiSummary()",
+      "file_type": "code",
+      "source_file": "internal/app/model_test.go",
+      "source_location": "L55",
+      "id": "app_model_test_testrenderstatusbarshowswifisummary",
+      "community": 12,
+      "norm_label": "testrenderstatusbarshowswifisummary()"
+    },
+    {
+      "label": "TestStartWiFiScanIfNeededTriggersOnEmptyScanTab()",
+      "file_type": "code",
+      "source_file": "internal/app/model_test.go",
+      "source_location": "L77",
+      "id": "app_model_test_teststartwifiscanifneededtriggersonemptyscantab",
+      "community": 12,
+      "norm_label": "teststartwifiscanifneededtriggersonemptyscantab()"
+    },
+    {
+      "label": "TestStartWiFiScanIfNeededSkipsWhenResultsExist()",
+      "file_type": "code",
+      "source_file": "internal/app/model_test.go",
+      "source_location": "L93",
+      "id": "app_model_test_teststartwifiscanifneededskipswhenresultsexist",
+      "community": 12,
+      "norm_label": "teststartwifiscanifneededskipswhenresultsexist()"
+    },
+    {
+      "label": "styles.go",
+      "file_type": "code",
+      "source_file": "internal/app/styles.go",
+      "source_location": "L1",
+      "id": "internal_app_styles_go",
+      "community": 1,
+      "norm_label": "styles.go"
+    },
+    {
+      "label": "statusStyle()",
+      "file_type": "code",
+      "source_file": "internal/app/styles.go",
+      "source_location": "L27",
+      "id": "app_styles_statusstyle",
+      "community": 1,
+      "norm_label": "statusstyle()"
+    },
+    {
+      "label": "wifi_scan.go",
+      "file_type": "code",
+      "source_file": "internal/checks/wifi_scan.go",
+      "source_location": "L1",
+      "id": "internal_checks_wifi_scan_go",
+      "community": 7,
+      "norm_label": "wifi_scan.go"
+    },
+    {
+      "label": "WiFiNetwork",
+      "file_type": "code",
+      "source_file": "internal/checks/wifi_scan.go",
+      "source_location": "L12",
+      "id": "checks_wifinetwork",
+      "community": 7,
+      "norm_label": "wifinetwork"
+    },
+    {
+      "label": "ScanWiFiNetworks()",
+      "file_type": "code",
+      "source_file": "internal/checks/wifi_scan.go",
+      "source_location": "L22",
+      "id": "checks_wifi_scan_scanwifinetworks",
+      "community": 7,
+      "norm_label": "scanwifinetworks()"
+    },
+    {
+      "label": "ParseNMCLIWiFiList()",
+      "file_type": "code",
+      "source_file": "internal/checks/wifi_scan.go",
+      "source_location": "L58",
+      "id": "checks_wifi_scan_parsenmcliwifilist",
+      "community": 7,
+      "norm_label": "parsenmcliwifilist()"
+    },
+    {
+      "label": "ParseIWScan()",
+      "file_type": "code",
+      "source_file": "internal/checks/wifi_scan.go",
+      "source_location": "L87",
+      "id": "checks_wifi_scan_parseiwscan",
+      "community": 7,
+      "norm_label": "parseiwscan()"
+    },
+    {
+      "label": ".SignalLabel()",
+      "file_type": "code",
+      "source_file": "internal/checks/wifi_scan.go",
+      "source_location": "L132",
+      "id": "checks_wifinetwork_signallabel",
+      "community": 7,
+      "norm_label": ".signallabel()"
+    },
+    {
+      "label": "sortWiFiNetworks()",
+      "file_type": "code",
+      "source_file": "internal/checks/wifi_scan.go",
+      "source_location": "L142",
+      "id": "checks_wifi_scan_sortwifinetworks",
+      "community": 7,
+      "norm_label": "sortwifinetworks()"
+    },
+    {
+      "label": "wifiSortKey()",
+      "file_type": "code",
+      "source_file": "internal/checks/wifi_scan.go",
+      "source_location": "L156",
+      "id": "checks_wifi_scan_wifisortkey",
+      "community": 7,
+      "norm_label": "wifisortkey()"
+    },
+    {
+      "label": "splitNMCLITerse()",
+      "file_type": "code",
+      "source_file": "internal/checks/wifi_scan.go",
+      "source_location": "L169",
+      "id": "checks_wifi_scan_splitnmcliterse",
+      "community": 7,
+      "norm_label": "splitnmcliterse()"
+    },
+    {
+      "label": "connectivity.go",
+      "file_type": "code",
+      "source_file": "internal/checks/connectivity.go",
+      "source_location": "L1",
+      "id": "internal_checks_connectivity_go",
+      "community": 10,
+      "norm_label": "connectivity.go"
+    },
+    {
+      "label": "PublicIP",
+      "file_type": "code",
+      "source_file": "internal/checks/connectivity.go",
+      "source_location": "L13",
+      "id": "checks_publicip",
+      "community": 10,
+      "norm_label": "publicip"
+    },
+    {
+      "label": "TCPChecker()",
+      "file_type": "code",
+      "source_file": "internal/checks/connectivity.go",
+      "source_location": "L25",
+      "id": "checks_connectivity_tcpchecker",
+      "community": 10,
+      "norm_label": "tcpchecker()"
+    },
+    {
+      "label": "DNSChecker()",
+      "file_type": "code",
+      "source_file": "internal/checks/connectivity.go",
+      "source_location": "L42",
+      "id": "checks_connectivity_dnschecker",
+      "community": 10,
+      "norm_label": "dnschecker()"
+    },
+    {
+      "label": "PublicIPChecker()",
+      "file_type": "code",
+      "source_file": "internal/checks/connectivity.go",
+      "source_location": "L57",
+      "id": "checks_connectivity_publicipchecker",
+      "community": 10,
+      "norm_label": "publicipchecker()"
+    },
+    {
+      "label": "splitLocation()",
+      "file_type": "code",
+      "source_file": "internal/checks/connectivity.go",
+      "source_location": "L89",
+      "id": "checks_connectivity_splitlocation",
+      "community": 10,
+      "norm_label": "splitlocation()"
+    },
+    {
+      "label": "nonEmpty()",
+      "file_type": "code",
+      "source_file": "internal/checks/connectivity.go",
+      "source_location": "L97",
+      "id": "checks_connectivity_nonempty",
+      "community": 10,
+      "norm_label": "nonempty()"
+    },
+    {
+      "label": "finished()",
+      "file_type": "code",
+      "source_file": "internal/checks/connectivity.go",
+      "source_location": "L108",
+      "id": "checks_connectivity_finished",
+      "community": 6,
+      "norm_label": "finished()"
+    },
+    {
+      "label": "system_test.go",
+      "file_type": "code",
+      "source_file": "internal/checks/system_test.go",
+      "source_location": "L1",
+      "id": "internal_checks_system_test_go",
+      "community": 6,
+      "norm_label": "system_test.go"
+    },
+    {
+      "label": "TestParseDefaultRoute()",
+      "file_type": "code",
+      "source_file": "internal/checks/system_test.go",
+      "source_location": "L5",
+      "id": "checks_system_test_testparsedefaultroute",
+      "community": 6,
+      "norm_label": "testparsedefaultroute()"
+    },
+    {
+      "label": "TestParseResolvConf()",
+      "file_type": "code",
+      "source_file": "internal/checks/system_test.go",
+      "source_location": "L13",
+      "id": "checks_system_test_testparseresolvconf",
+      "community": 6,
+      "norm_label": "testparseresolvconf()"
+    },
+    {
+      "label": "TestParseNMCLIActiveSSID()",
+      "file_type": "code",
+      "source_file": "internal/checks/system_test.go",
+      "source_location": "L20",
+      "id": "checks_system_test_testparsenmcliactivessid",
+      "community": 6,
+      "norm_label": "testparsenmcliactivessid()"
+    },
+    {
+      "label": "TestParseNMCLIActiveWiFi()",
+      "file_type": "code",
+      "source_file": "internal/checks/system_test.go",
+      "source_location": "L28",
+      "id": "checks_system_test_testparsenmcliactivewifi",
+      "community": 6,
+      "norm_label": "testparsenmcliactivewifi()"
+    },
+    {
+      "label": "TestParseWirelessInterfaces()",
+      "file_type": "code",
+      "source_file": "internal/checks/system_test.go",
+      "source_location": "L36",
+      "id": "checks_system_test_testparsewirelessinterfaces",
+      "community": 6,
+      "norm_label": "testparsewirelessinterfaces()"
+    },
+    {
+      "label": "TestParseIWLinkSSID()",
+      "file_type": "code",
+      "source_file": "internal/checks/system_test.go",
+      "source_location": "L44",
+      "id": "checks_system_test_testparseiwlinkssid",
+      "community": 6,
+      "norm_label": "testparseiwlinkssid()"
+    },
+    {
+      "label": "TestParseIWLinkSignal()",
+      "file_type": "code",
+      "source_file": "internal/checks/system_test.go",
+      "source_location": "L52",
+      "id": "checks_system_test_testparseiwlinksignal",
+      "community": 6,
+      "norm_label": "testparseiwlinksignal()"
+    },
+    {
+      "label": "TestParseDockerNetworkList()",
+      "file_type": "code",
+      "source_file": "internal/checks/system_test.go",
+      "source_location": "L60",
+      "id": "checks_system_test_testparsedockernetworklist",
+      "community": 6,
+      "norm_label": "testparsedockernetworklist()"
+    },
+    {
+      "label": "TestParseDockerInspect()",
+      "file_type": "code",
+      "source_file": "internal/checks/system_test.go",
+      "source_location": "L68",
+      "id": "checks_system_test_testparsedockerinspect",
+      "community": 6,
+      "norm_label": "testparsedockerinspect()"
+    },
+    {
+      "label": "TestCIDROverlap()",
+      "file_type": "code",
+      "source_file": "internal/checks/system_test.go",
+      "source_location": "L79",
+      "id": "checks_system_test_testcidroverlap",
+      "community": 6,
+      "norm_label": "testcidroverlap()"
+    },
+    {
+      "label": "system.go",
+      "file_type": "code",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L1",
+      "id": "internal_checks_system_go",
+      "community": 6,
+      "norm_label": "system.go"
+    },
+    {
+      "label": "CommandChecker()",
+      "file_type": "code",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L15",
+      "id": "checks_system_commandchecker",
+      "community": 10,
+      "norm_label": "commandchecker()"
+    },
+    {
+      "label": "commandChecker",
+      "file_type": "code",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L19",
+      "id": "checks_commandchecker",
+      "community": 6,
+      "norm_label": "commandchecker"
+    },
+    {
+      "label": ".Name()",
+      "file_type": "code",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L28",
+      "id": "checks_commandchecker_name",
+      "community": 6,
+      "norm_label": ".name()"
+    },
+    {
+      "label": ".Category()",
+      "file_type": "code",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L29",
+      "id": "checks_commandchecker_category",
+      "community": 6,
+      "norm_label": ".category()"
+    },
+    {
+      "label": ".Run()",
+      "file_type": "code",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L30",
+      "id": "checks_commandchecker_run",
+      "community": 6,
+      "norm_label": ".run()"
+    },
+    {
+      "label": "XVPNChecker()",
+      "file_type": "code",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L46",
+      "id": "checks_system_xvpnchecker",
+      "community": 10,
+      "norm_label": "xvpnchecker()"
+    },
+    {
+      "label": "V2RayAServiceChecker()",
+      "file_type": "code",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L65",
+      "id": "checks_system_v2rayaservicechecker",
+      "community": 10,
+      "norm_label": "v2rayaservicechecker()"
+    },
+    {
+      "label": "ProcessChecker()",
+      "file_type": "code",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L81",
+      "id": "checks_system_processchecker",
+      "community": 10,
+      "norm_label": "processchecker()"
+    },
+    {
+      "label": "WiFiChecker()",
+      "file_type": "code",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L90",
+      "id": "checks_system_wifichecker",
+      "community": 6,
+      "norm_label": "wifichecker()"
+    },
+    {
+      "label": "RouteChecker()",
+      "file_type": "code",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L124",
+      "id": "checks_system_routechecker",
+      "community": 6,
+      "norm_label": "routechecker()"
+    },
+    {
+      "label": "DNSConfigChecker()",
+      "file_type": "code",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L158",
+      "id": "checks_system_dnsconfigchecker",
+      "community": 6,
+      "norm_label": "dnsconfigchecker()"
+    },
+    {
+      "label": "DockerChecker()",
+      "file_type": "code",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L175",
+      "id": "checks_system_dockerchecker",
+      "community": 6,
+      "norm_label": "dockerchecker()"
+    },
+    {
+      "label": "DefaultRoute",
+      "file_type": "code",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L232",
+      "id": "checks_defaultroute",
+      "community": 6,
+      "norm_label": "defaultroute"
+    },
+    {
+      "label": ".Summary()",
+      "file_type": "code",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L238",
+      "id": "checks_defaultroute_summary",
+      "community": 6,
+      "norm_label": ".summary()"
+    },
+    {
+      "label": "ParseDefaultRoute()",
+      "file_type": "code",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L252",
+      "id": "checks_system_parsedefaultroute",
+      "community": 6,
+      "norm_label": "parsedefaultroute()"
+    },
+    {
+      "label": "ParseResolvConf()",
+      "file_type": "code",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L274",
+      "id": "checks_system_parseresolvconf",
+      "community": 6,
+      "norm_label": "parseresolvconf()"
+    },
+    {
+      "label": "ActiveWiFi",
+      "file_type": "code",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L285",
+      "id": "checks_activewifi",
+      "community": 6,
+      "norm_label": "activewifi"
+    },
+    {
+      "label": "ParseNMCLIActiveSSID()",
+      "file_type": "code",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L290",
+      "id": "checks_system_parsenmcliactivessid",
+      "community": 6,
+      "norm_label": "parsenmcliactivessid()"
+    },
+    {
+      "label": "ParseNMCLIActiveWiFi()",
+      "file_type": "code",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L298",
+      "id": "checks_system_parsenmcliactivewifi",
+      "community": 6,
+      "norm_label": "parsenmcliactivewifi()"
+    },
+    {
+      "label": "lastUnescapedColon()",
+      "file_type": "code",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L320",
+      "id": "checks_system_lastunescapedcolon",
+      "community": 6,
+      "norm_label": "lastunescapedcolon()"
+    },
+    {
+      "label": "unescapeNMCLITerse()",
+      "file_type": "code",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L336",
+      "id": "checks_system_unescapenmcliterse",
+      "community": 6,
+      "norm_label": "unescapenmcliterse()"
+    },
+    {
+      "label": "ParseWirelessInterfaces()",
+      "file_type": "code",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L357",
+      "id": "checks_system_parsewirelessinterfaces",
+      "community": 6,
+      "norm_label": "parsewirelessinterfaces()"
+    },
+    {
+      "label": "ParseIWLinkSSID()",
+      "file_type": "code",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L368",
+      "id": "checks_system_parseiwlinkssid",
+      "community": 6,
+      "norm_label": "parseiwlinkssid()"
+    },
+    {
+      "label": "ParseIWLinkSignal()",
+      "file_type": "code",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L378",
+      "id": "checks_system_parseiwlinksignal",
+      "community": 6,
+      "norm_label": "parseiwlinksignal()"
+    },
+    {
+      "label": "dockerListItem",
+      "file_type": "code",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L398",
+      "id": "checks_dockerlistitem",
+      "community": 6,
+      "norm_label": "dockerlistitem"
+    },
+    {
+      "label": "ParseDockerNetworkList()",
+      "file_type": "code",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L402",
+      "id": "checks_system_parsedockernetworklist",
+      "community": 6,
+      "norm_label": "parsedockernetworklist()"
+    },
+    {
+      "label": "dockerInspectItem",
+      "file_type": "code",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L417",
+      "id": "checks_dockerinspectitem",
+      "community": 6,
+      "norm_label": "dockerinspectitem"
+    },
+    {
+      "label": "DockerNetwork",
+      "file_type": "code",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L428",
+      "id": "checks_dockernetwork",
+      "community": 6,
+      "norm_label": "dockernetwork"
+    },
+    {
+      "label": ".String()",
+      "file_type": "code",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L435",
+      "id": "checks_dockernetwork_string",
+      "community": 6,
+      "norm_label": ".string()"
+    },
+    {
+      "label": "FormatDockerDetails()",
+      "file_type": "code",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L439",
+      "id": "checks_system_formatdockerdetails",
+      "community": 6,
+      "norm_label": "formatdockerdetails()"
+    },
+    {
+      "label": "cleanCell()",
+      "file_type": "code",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L461",
+      "id": "checks_system_cleancell",
+      "community": 6,
+      "norm_label": "cleancell()"
+    },
+    {
+      "label": "ParseDockerInspect()",
+      "file_type": "code",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L475",
+      "id": "checks_system_parsedockerinspect",
+      "community": 6,
+      "norm_label": "parsedockerinspect()"
+    },
+    {
+      "label": "RouteCIDRs()",
+      "file_type": "code",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L497",
+      "id": "checks_system_routecidrs",
+      "community": 6,
+      "norm_label": "routecidrs()"
+    },
+    {
+      "label": "CIDROverlap()",
+      "file_type": "code",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L511",
+      "id": "checks_system_cidroverlap",
+      "community": 6,
+      "norm_label": "cidroverlap()"
+    },
+    {
+      "label": "readResolvConf()",
+      "file_type": "code",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L520",
+      "id": "checks_system_readresolvconf",
+      "community": 6,
+      "norm_label": "readresolvconf()"
+    },
+    {
+      "label": "firstLine()",
+      "file_type": "code",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L528",
+      "id": "checks_system_firstline",
+      "community": 10,
+      "norm_label": "firstline()"
+    },
+    {
+      "label": "outputOrError()",
+      "file_type": "code",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L536",
+      "id": "checks_system_outputorerror",
+      "community": 6,
+      "norm_label": "outputorerror()"
+    },
+    {
+      "label": "stringErrors()",
+      "file_type": "code",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L547",
+      "id": "checks_system_stringerrors",
+      "community": 4,
+      "norm_label": "stringerrors()"
+    },
+    {
+      "label": "unique()",
+      "file_type": "code",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L557",
+      "id": "checks_system_unique",
+      "community": 6,
+      "norm_label": "unique()"
+    },
+    {
+      "label": "shellQuote()",
+      "file_type": "code",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L569",
+      "id": "checks_system_shellquote",
+      "community": 6,
+      "norm_label": "shellquote()"
+    },
+    {
+      "label": "types.go",
+      "file_type": "code",
+      "source_file": "internal/checks/types.go",
+      "source_location": "L1",
+      "id": "internal_checks_types_go",
+      "community": 3,
+      "norm_label": "types.go"
+    },
+    {
+      "label": "Status",
+      "file_type": "code",
+      "source_file": "internal/checks/types.go",
+      "source_location": "L13",
+      "id": "checks_status",
+      "community": 3,
+      "norm_label": "status"
+    },
+    {
+      "label": "Result",
+      "file_type": "code",
+      "source_file": "internal/checks/types.go",
+      "source_location": "L22",
+      "id": "checks_result",
+      "community": 3,
+      "norm_label": "result"
+    },
+    {
+      "label": "Checker",
+      "file_type": "code",
+      "source_file": "internal/checks/types.go",
+      "source_location": "L34",
+      "id": "checks_checker",
+      "community": 3,
+      "norm_label": "checker"
+    },
+    {
+      "label": "CheckFunc",
+      "file_type": "code",
+      "source_file": "internal/checks/types.go",
+      "source_location": "L40",
+      "id": "checks_checkfunc",
+      "community": 3,
+      "norm_label": "checkfunc"
+    },
+    {
+      "label": ".Name()",
+      "file_type": "code",
+      "source_file": "internal/checks/types.go",
+      "source_location": "L46",
+      "id": "checks_checkfunc_name",
+      "community": 3,
+      "norm_label": ".name()"
+    },
+    {
+      "label": ".Category()",
+      "file_type": "code",
+      "source_file": "internal/checks/types.go",
+      "source_location": "L47",
+      "id": "checks_checkfunc_category",
+      "community": 3,
+      "norm_label": ".category()"
+    },
+    {
+      "label": ".Run()",
+      "file_type": "code",
+      "source_file": "internal/checks/types.go",
+      "source_location": "L48",
+      "id": "checks_checkfunc_run",
+      "community": 3,
+      "norm_label": ".run()"
+    },
+    {
+      "label": "Runner",
+      "file_type": "code",
+      "source_file": "internal/checks/types.go",
+      "source_location": "L67",
+      "id": "checks_runner",
+      "community": 3,
+      "norm_label": "runner"
+    },
+    {
+      "label": ".Run()",
+      "file_type": "code",
+      "source_file": "internal/checks/types.go",
+      "source_location": "L72",
+      "id": "checks_runner_run",
+      "community": 3,
+      "norm_label": ".run()"
+    },
+    {
+      "label": "NewResult()",
+      "file_type": "code",
+      "source_file": "internal/checks/types.go",
+      "source_location": "L103",
+      "id": "checks_types_newresult",
+      "community": 3,
+      "norm_label": "newresult()"
+    },
+    {
+      "label": "CommandRunner",
+      "file_type": "code",
+      "source_file": "internal/checks/types.go",
+      "source_location": "L117",
+      "id": "checks_commandrunner",
+      "community": 3,
+      "norm_label": "commandrunner"
+    },
+    {
+      "label": "ShellCommandRunner",
+      "file_type": "code",
+      "source_file": "internal/checks/types.go",
+      "source_location": "L121",
+      "id": "checks_shellcommandrunner",
+      "community": 3,
+      "norm_label": "shellcommandrunner"
+    },
+    {
+      "label": ".Run()",
+      "file_type": "code",
+      "source_file": "internal/checks/types.go",
+      "source_location": "L123",
+      "id": "checks_shellcommandrunner_run",
+      "community": 3,
+      "norm_label": ".run()"
+    },
+    {
+      "label": "wifi_scan_test.go",
+      "file_type": "code",
+      "source_file": "internal/checks/wifi_scan_test.go",
+      "source_location": "L1",
+      "id": "internal_checks_wifi_scan_test_go",
+      "community": 7,
+      "norm_label": "wifi_scan_test.go"
+    },
+    {
+      "label": "TestParseNMCLIWiFiList()",
+      "file_type": "code",
+      "source_file": "internal/checks/wifi_scan_test.go",
+      "source_location": "L5",
+      "id": "checks_wifi_scan_test_testparsenmcliwifilist",
+      "community": 7,
+      "norm_label": "testparsenmcliwifilist()"
+    },
+    {
+      "label": "TestParseIWScan()",
+      "file_type": "code",
+      "source_file": "internal/checks/wifi_scan_test.go",
+      "source_location": "L26",
+      "id": "checks_wifi_scan_test_testparseiwscan",
+      "community": 7,
+      "norm_label": "testparseiwscan()"
+    },
+    {
+      "label": "TestWiFiNetworkSignalLabel()",
+      "file_type": "code",
+      "source_file": "internal/checks/wifi_scan_test.go",
+      "source_location": "L48",
+      "id": "checks_wifi_scan_test_testwifinetworksignallabel",
+      "community": 7,
+      "norm_label": "testwifinetworksignallabel()"
+    },
+    {
+      "label": "factory.go",
+      "file_type": "code",
+      "source_file": "internal/checks/factory.go",
+      "source_location": "L1",
+      "id": "internal_checks_factory_go",
+      "community": 10,
+      "norm_label": "factory.go"
+    },
+    {
+      "label": "Build()",
+      "file_type": "code",
+      "source_file": "internal/checks/factory.go",
+      "source_location": "L5",
+      "id": "checks_factory_build",
+      "community": 10,
+      "norm_label": "build()"
+    },
+    {
+      "label": "BuildWithoutPublicIP()",
+      "file_type": "code",
+      "source_file": "internal/checks/factory.go",
+      "source_location": "L11",
+      "id": "checks_factory_buildwithoutpublicip",
+      "community": 10,
+      "norm_label": "buildwithoutpublicip()"
+    },
+    {
+      "label": "BuildPublicIP()",
+      "file_type": "code",
+      "source_file": "internal/checks/factory.go",
+      "source_location": "L29",
+      "id": "checks_factory_buildpublicip",
+      "community": 10,
+      "norm_label": "buildpublicip()"
+    },
+    {
+      "label": "main.go",
+      "file_type": "code",
+      "source_file": "cmd/network-tracker/main.go",
+      "source_location": "L1",
+      "id": "cmd_network_tracker_main_go",
+      "community": 4,
+      "norm_label": "main.go"
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "cmd/network-tracker/main.go",
+      "source_location": "L13",
+      "id": "network_tracker_main_main",
+      "community": 4,
+      "norm_label": "main()"
+    },
+    {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "id": "readme_md",
+      "community": 2,
+      "norm_label": "readme.md"
+    },
+    {
+      "label": "network-tracker",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "id": "network_tracker_readme_network_tracker",
+      "community": 2,
+      "norm_label": "network-tracker"
+    },
+    {
+      "label": "Quick start",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L9",
+      "id": "network_tracker_readme_quick_start",
+      "community": 2,
+      "norm_label": "quick start"
+    },
+    {
+      "label": "code:bash (go install github.com/eskylake/network-tracker/cmd/network-t)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L13",
+      "id": "network_tracker_readme_codeblock_1",
+      "community": 2,
+      "norm_label": "code:bash (go install github.com/eskylake/network-tracker/cmd/network-t)"
+    },
+    {
+      "label": "code:bash (git clone https://github.com/eskylake/network-tracker.git)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L20",
+      "id": "network_tracker_readme_codeblock_2",
+      "community": 2,
+      "norm_label": "code:bash (git clone https://github.com/eskylake/network-tracker.git)"
+    },
+    {
+      "label": "code:bash (go run github.com/eskylake/network-tracker/cmd/network-track)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L29",
+      "id": "network_tracker_readme_codeblock_3",
+      "community": 2,
+      "norm_label": "code:bash (go run github.com/eskylake/network-tracker/cmd/network-track)"
+    },
+    {
+      "label": "What it does",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L37",
+      "id": "network_tracker_readme_what_it_does",
+      "community": 2,
+      "norm_label": "what it does"
+    },
+    {
+      "label": "Highlights",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L41",
+      "id": "network_tracker_readme_highlights",
+      "community": 2,
+      "norm_label": "highlights"
+    },
+    {
+      "label": "Keyboard shortcuts",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L56",
+      "id": "network_tracker_readme_keyboard_shortcuts",
+      "community": 2,
+      "norm_label": "keyboard shortcuts"
+    },
+    {
+      "label": "Global",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L58",
+      "id": "network_tracker_readme_global",
+      "community": 2,
+      "norm_label": "global"
+    },
+    {
+      "label": "Scan tab",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L70",
+      "id": "network_tracker_readme_scan_tab",
+      "community": 2,
+      "norm_label": "scan tab"
+    },
+    {
+      "label": "Ping tab",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L78",
+      "id": "network_tracker_readme_ping_tab",
+      "community": 2,
+      "norm_label": "ping tab"
+    },
+    {
+      "label": "Logs tab",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L87",
+      "id": "network_tracker_readme_logs_tab",
+      "community": 2,
+      "norm_label": "logs tab"
+    },
+    {
+      "label": "Tabs",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L95",
+      "id": "network_tracker_readme_tabs",
+      "community": 2,
+      "norm_label": "tabs"
+    },
+    {
+      "label": "Requirements",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L110",
+      "id": "network_tracker_readme_requirements",
+      "community": 2,
+      "norm_label": "requirements"
+    },
+    {
+      "label": "Optional tools",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L115",
+      "id": "network_tracker_readme_optional_tools",
+      "community": 2,
+      "norm_label": "optional tools"
+    },
+    {
+      "label": "Configuration",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L131",
+      "id": "network_tracker_readme_configuration",
+      "community": 2,
+      "norm_label": "configuration"
+    },
+    {
+      "label": "code:text (~/.config/network-tracker/config.yaml)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L135",
+      "id": "network_tracker_readme_codeblock_4",
+      "community": 2,
+      "norm_label": "code:text (~/.config/network-tracker/config.yaml)"
+    },
+    {
+      "label": "code:bash (mkdir -p ~/.config/network-tracker)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L143",
+      "id": "network_tracker_readme_codeblock_5",
+      "community": 2,
+      "norm_label": "code:bash (mkdir -p ~/.config/network-tracker)"
+    },
+    {
+      "label": "Full config reference",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L150",
+      "id": "network_tracker_readme_full_config_reference",
+      "community": 2,
+      "norm_label": "full config reference"
+    },
+    {
+      "label": "code:yaml (# Auto-refresh interval for most checks (not public IP).)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L152",
+      "id": "network_tracker_readme_codeblock_6",
+      "community": 2,
+      "norm_label": "code:yaml (# auto-refresh interval for most checks (not public ip).)"
+    },
+    {
+      "label": "Common tweaks",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L186",
+      "id": "network_tracker_readme_common_tweaks",
+      "community": 2,
+      "norm_label": "common tweaks"
+    },
+    {
+      "label": "code:yaml (docker_enabled: false)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L190",
+      "id": "network_tracker_readme_codeblock_7",
+      "community": 2,
+      "norm_label": "code:yaml (docker_enabled: false)"
+    },
+    {
+      "label": "code:yaml (refresh_interval: 2s)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L196",
+      "id": "network_tracker_readme_codeblock_8",
+      "community": 2,
+      "norm_label": "code:yaml (refresh_interval: 2s)"
+    },
+    {
+      "label": "code:yaml (xvpn_status_command: /usr/local/bin/xvpn status)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L203",
+      "id": "network_tracker_readme_codeblock_9",
+      "community": 2,
+      "norm_label": "code:yaml (xvpn_status_command: /usr/local/bin/xvpn status)"
+    },
+    {
+      "label": "Development",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L209",
+      "id": "network_tracker_readme_development",
+      "community": 2,
+      "norm_label": "development"
+    },
+    {
+      "label": "code:bash (git clone https://github.com/eskylake/network-tracker.git)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L211",
+      "id": "network_tracker_readme_codeblock_10",
+      "community": 2,
+      "norm_label": "code:bash (git clone https://github.com/eskylake/network-tracker.git)"
+    },
+    {
+      "label": "code:bash (go test ./internal/app/... -v)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L220",
+      "id": "network_tracker_readme_codeblock_11",
+      "community": 2,
+      "norm_label": "code:bash (go test ./internal/app/... -v)"
+    },
+    {
+      "label": "Notes",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L227",
+      "id": "network_tracker_readme_notes",
+      "community": 2,
+      "norm_label": "notes"
+    },
+    {
+      "label": "License",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L237",
+      "id": "network_tracker_readme_license",
+      "community": 2,
+      "norm_label": "license"
+    },
+    {
+      "label": "Features",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L5",
+      "community": 2,
+      "norm_label": "features",
+      "id": "network_tracker_readme_features"
+    },
+    {
+      "label": "Install",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L32",
+      "community": 2,
+      "norm_label": "install",
+      "id": "network_tracker_readme_install"
+    },
+    {
+      "label": "Quick Run Without Installing",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L65",
+      "community": 2,
+      "norm_label": "quick run without installing",
+      "id": "network_tracker_readme_quick_run_without_installing"
+    },
+    {
+      "label": "Usage",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L71",
+      "community": 2,
+      "norm_label": "usage",
+      "id": "network_tracker_readme_usage"
+    },
+    {
+      "label": "Config Examples",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L163",
+      "community": 2,
+      "norm_label": "config examples",
+      "id": "network_tracker_readme_config_examples"
+    },
+    {
+      "label": "code:yaml (refresh_interval: 2s)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L188",
+      "community": 2,
+      "norm_label": "code:yaml (refresh_interval: 2s)",
+      "id": "network_tracker_readme_codeblock_12"
+    },
+    {
+      "label": "code:yaml (xvpn_status_command: /usr/local/bin/xvpn status)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L195",
+      "community": 2,
+      "norm_label": "code:yaml (xvpn_status_command: /usr/local/bin/xvpn status)",
+      "id": "network_tracker_readme_codeblock_13"
+    },
+    {
+      "label": "code:yaml (v2raya_status_command: systemctl is-active v2raya.service)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L201",
+      "community": 2,
+      "norm_label": "code:yaml (v2raya_status_command: systemctl is-active v2raya.service)",
+      "id": "network_tracker_readme_codeblock_14"
+    },
+    {
+      "label": "code:yaml (docker_enabled: false)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L207",
+      "community": 2,
+      "norm_label": "code:yaml (docker_enabled: false)",
+      "id": "network_tracker_readme_codeblock_15"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/config/config.go",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_config_config_go",
+      "target": "config_duration"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/config/config.go",
+      "source_location": "L29",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_config_config_go",
+      "target": "config_config"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/config/config.go",
+      "source_location": "L44",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_config_config_go",
+      "target": "config_config_default"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/config/config.go",
+      "source_location": "L65",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_config_config_go",
+      "target": "config_config_load"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/config/config.go",
+      "source_location": "L99",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_config_config_go",
+      "target": "config_config_path"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/config/config.go",
+      "source_location": "L107",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_config_config_go",
+      "target": "config_config_normalize"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/config/config.go",
+      "source_location": "L16",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "config_duration",
+      "target": "config_duration_marshalyaml"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/config/config.go",
+      "source_location": "L20",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "config_duration",
+      "target": "config_duration_unmarshalyaml"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/config/config.go",
+      "source_location": "L71",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "config_config_load",
+      "target": "config_config_default"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/config/config.go",
+      "source_location": "L108",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "config_config_normalize",
+      "target": "config_config_default"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/config/config.go",
+      "source_location": "L66",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "config_config_load",
+      "target": "config_config_path"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/config/config.go",
+      "source_location": "L95",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "config_config_load",
+      "target": "config_config_normalize"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "cmd/network-tracker/main.go",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "network_tracker_main_main",
+      "target": "config_config_load"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/model.go",
+      "source_location": "L18",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_app_model_go",
+      "target": "internal_app_model_go_app_model"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/model.go",
+      "source_location": "L40",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_app_model_go",
+      "target": "app_refreshmsg"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/model.go",
+      "source_location": "L46",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_app_model_go",
+      "target": "app_tickmsg"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/model.go",
+      "source_location": "L47",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_app_model_go",
+      "target": "app_publiciptickmsg"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/model.go",
+      "source_location": "L49",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_app_model_go",
+      "target": "app_publiciprefreshmsg"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/model.go",
+      "source_location": "L54",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_app_model_go",
+      "target": "app_pingmsg"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/model.go",
+      "source_location": "L65",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_app_model_go",
+      "target": "app_wifiscanmsg"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/model.go",
+      "source_location": "L59",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_app_model_go",
+      "target": "app_networksnapshot"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/model.go",
+      "source_location": "L64",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_app_model_go",
+      "target": "app_model_new"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/model.go",
+      "source_location": "L237",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_app_model_go",
+      "target": "app_model_tick"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/model.go",
+      "source_location": "L241",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_app_model_go",
+      "target": "app_model_publiciptick"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/model.go",
+      "source_location": "L245",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_app_model_go",
+      "target": "app_model_pingonce"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/model.go",
+      "source_location": "L249",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_app_model_go",
+      "target": "app_model_runping"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/model.go",
+      "source_location": "L260",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_app_model_go",
+      "target": "app_model_compactpingoutput"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/model.go",
+      "source_location": "L282",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_app_model_go",
+      "target": "app_model_snapshotfromresults"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/model.go",
+      "source_location": "L299",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_app_model_go",
+      "target": "app_model_prependlog"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/model.go",
+      "source_location": "L303",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_app_model_go",
+      "target": "app_model_mergeresults"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/model.go",
+      "source_location": "L327",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_app_model_go",
+      "target": "app_model_prependbounded"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/model.go",
+      "source_location": "L335",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_app_model_go",
+      "target": "app_model_timestamped"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/model.go",
+      "source_location": "L339",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_app_model_go",
+      "target": "app_model_max"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/model.go",
+      "source_location": "L80",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_app_model_go_app_model",
+      "target": "app_model_init"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/model.go",
+      "source_location": "L90",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_app_model_go_app_model",
+      "target": "app_model_update"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/model.go",
+      "source_location": "L260",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_app_model_go_app_model",
+      "target": "app_model_startwifiscanifneeded"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/model.go",
+      "source_location": "L220",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_app_model_go_app_model",
+      "target": "app_model_refresh"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/model.go",
+      "source_location": "L229",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_app_model_go_app_model",
+      "target": "app_model_refreshpublicip"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/model.go",
+      "source_location": "L285",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_app_model_go_app_model",
+      "target": "app_model_scanwifi"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/model.go",
+      "source_location": "L238",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_model_tick",
+      "target": "app_tickmsg"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/model.go",
+      "source_location": "L242",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_model_publiciptick",
+      "target": "app_publiciptickmsg"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/model.go",
+      "source_location": "L295",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_networksnapshot",
+      "target": "app_networksnapshot_string"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "internal/checks/system.go",
+      "source_location": "L485",
+      "weight": 1.0,
+      "source": "checks_system_stringerrors",
+      "target": "app_model_new"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "cmd/network-tracker/main.go",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "network_tracker_main_main",
+      "target": "app_model_new"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/model.go",
+      "source_location": "L83",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_model_init",
+      "target": "app_model_refresh"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/model.go",
+      "source_location": "L84",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_model_init",
+      "target": "app_model_refreshpublicip"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/model.go",
+      "source_location": "L85",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_model_init",
+      "target": "app_model_tick"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/model.go",
+      "source_location": "L86",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_model_init",
+      "target": "app_model_publiciptick"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/model.go",
+      "source_location": "L98",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_model_update",
+      "target": "app_networksnapshot_string"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/model.go",
+      "source_location": "L117",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_model_update",
+      "target": "app_model_startwifiscanifneeded"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/model.go",
+      "source_location": "L116",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_model_update",
+      "target": "app_model_prependlog"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/model.go",
+      "source_location": "L130",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_model_update",
+      "target": "app_model_scanwifi"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/model.go",
+      "source_location": "L117",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_model_update",
+      "target": "app_model_refresh"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/model.go",
+      "source_location": "L120",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_model_update",
+      "target": "app_model_max"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/model.go",
+      "source_location": "L140",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_model_update",
+      "target": "app_model_prependbounded"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/model.go",
+      "source_location": "L140",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_model_update",
+      "target": "app_model_timestamped"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/model.go",
+      "source_location": "L151",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_model_update",
+      "target": "app_model_pingonce"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/model.go",
+      "source_location": "L180",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_model_update",
+      "target": "app_model_tick"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/model.go",
+      "source_location": "L182",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_model_update",
+      "target": "app_model_refreshpublicip"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/model.go",
+      "source_location": "L182",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_model_update",
+      "target": "app_model_publiciptick"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/model.go",
+      "source_location": "L189",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_model_update",
+      "target": "app_model_runping"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/model.go",
+      "source_location": "L194",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_model_update",
+      "target": "app_model_mergeresults"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/model.go",
+      "source_location": "L263",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_model_startwifiscanifneeded",
+      "target": "app_model_scanwifi"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/model.go",
+      "source_location": "L225",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_model_refresh",
+      "target": "app_model_snapshotfromresults"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "internal/app/model.go",
+      "source_location": "L223",
+      "weight": 1.0,
+      "source": "app_model_refresh",
+      "target": "checks_factory_buildwithoutpublicip"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "internal/app/model.go",
+      "source_location": "L232",
+      "weight": 1.0,
+      "source": "app_model_refreshpublicip",
+      "target": "checks_factory_buildpublicip"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "internal/app/model.go",
+      "source_location": "L289",
+      "weight": 1.0,
+      "source": "app_model_scanwifi",
+      "target": "checks_wifi_scan_scanwifinetworks"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "internal/app/model.go",
+      "source_location": "L242",
+      "weight": 1.0,
+      "source": "app_model_publiciptick",
+      "target": "app_model_tick"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/model.go",
+      "source_location": "L246",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_model_pingonce",
+      "target": "app_model_runping"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/model.go",
+      "source_location": "L256",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_model_runping",
+      "target": "app_model_compactpingoutput"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/model.go",
+      "source_location": "L257",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_model_runping",
+      "target": "app_model_timestamped"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/model.go",
+      "source_location": "L271",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_model_compactpingoutput",
+      "target": "app_networksnapshot_string"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/model.go",
+      "source_location": "L300",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_model_prependlog",
+      "target": "app_model_prependbounded"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/model.go",
+      "source_location": "L300",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_model_prependlog",
+      "target": "app_model_timestamped"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "internal/app/model_test.go",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "app_model_test_testmergeresultsreplacesexistingbyname",
+      "target": "app_model_mergeresults"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "internal/app/model_test.go",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "app_model_test_testmergeresultsappendsnewresults",
+      "target": "app_model_mergeresults"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "internal/app/view.go",
+      "source_location": "L211",
+      "weight": 1.0,
+      "source": "app_model_wifitablewidth",
+      "target": "app_model_max"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "internal/app/view.go",
+      "source_location": "L169",
+      "weight": 1.0,
+      "source": "app_model_renderlogs",
+      "target": "app_model_max"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/view_test.go",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_app_view_test_go",
+      "target": "app_view_test_testpadusesvisualwidthwithansi"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/view_test.go",
+      "source_location": "L19",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_app_view_test_go",
+      "target": "app_view_test_testrenderwifinetworktablealignscolumns"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/view_test.go",
+      "source_location": "L37",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_app_view_test_go",
+      "target": "app_view_test_testwifivisiblewindowkeepsselectioncentered"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "internal/app/view_test.go",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "app_view_test_testpadusesvisualwidthwithansi",
+      "target": "app_styles_statusstyle"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "internal/app/view_test.go",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "app_view_test_testpadusesvisualwidthwithansi",
+      "target": "app_view_pad"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "internal/app/view_test.go",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "app_view_test_testrenderwifinetworktablealignscolumns",
+      "target": "app_view_renderwifinetworktable"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "internal/app/view_test.go",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "app_view_test_testrenderwifinetworktablealignscolumns",
+      "target": "app_model_wifitablewidth"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "internal/app/view_test.go",
+      "source_location": "L38",
+      "weight": 1.0,
+      "source": "app_view_test_testwifivisiblewindowkeepsselectioncentered",
+      "target": "app_view_wifivisiblewindow"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/view.go",
+      "source_location": "L94",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_app_view_go",
+      "target": "app_view_wifisignallabel"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/view.go",
+      "source_location": "L216",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_app_view_go",
+      "target": "app_view_wifivisiblewindow"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/view.go",
+      "source_location": "L181",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_app_view_go",
+      "target": "app_view_renderwifinetworktable"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/view.go",
+      "source_location": "L212",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_app_view_go",
+      "target": "app_view_fallback"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/view.go",
+      "source_location": "L219",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_app_view_go",
+      "target": "app_view_boollabel"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/view.go",
+      "source_location": "L192",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_app_view_go",
+      "target": "app_view_renderresulttable"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/view.go",
+      "source_location": "L220",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_app_view_go",
+      "target": "app_view_renderippanel"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/view.go",
+      "source_location": "L249",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_app_view_go",
+      "target": "app_view_kv"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/view.go",
+      "source_location": "L256",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_app_view_go",
+      "target": "app_view_parsedetails"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/view.go",
+      "source_location": "L268",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_app_view_go",
+      "target": "app_view_findresult"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/view.go",
+      "source_location": "L277",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_app_view_go",
+      "target": "app_view_hasresult"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/view.go",
+      "source_location": "L282",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_app_view_go",
+      "target": "app_view_truncate"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/view.go",
+      "source_location": "L293",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_app_view_go",
+      "target": "app_view_pad"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/view.go",
+      "source_location": "L301",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_app_view_go",
+      "target": "app_view_linecount"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/view.go",
+      "source_location": "L308",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_app_view_go",
+      "target": "app_view_clamplines"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/view.go",
+      "source_location": "L321",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_app_view_go",
+      "target": "app_view_min"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/view.go",
+      "source_location": "L10",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_app_view_go_app_model",
+      "target": "app_model_view"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/view.go",
+      "source_location": "L55",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_app_view_go_app_model",
+      "target": "app_model_renderstatusbar"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/view.go",
+      "source_location": "L85",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_app_view_go_app_model",
+      "target": "app_model_renderwifistatusvalue"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/view.go",
+      "source_location": "L68",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_app_view_go_app_model",
+      "target": "app_model_rendertabs"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/view.go",
+      "source_location": "L80",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_app_view_go_app_model",
+      "target": "app_model_renderoverview"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/view.go",
+      "source_location": "L113",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_app_view_go_app_model",
+      "target": "app_model_renderresults"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/view.go",
+      "source_location": "L138",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_app_view_go_app_model",
+      "target": "app_model_renderwifiscan"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/view.go",
+      "source_location": "L208",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_app_view_go_app_model",
+      "target": "app_model_wifitablewidth"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/view.go",
+      "source_location": "L133",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_app_view_go_app_model",
+      "target": "app_model_renderping"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/view.go",
+      "source_location": "L158",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_app_view_go_app_model",
+      "target": "app_model_renderlogs"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/view.go",
+      "source_location": "L175",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_app_view_go_app_model",
+      "target": "app_model_filteredresults"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/view.go",
+      "source_location": "L22",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_model_view",
+      "target": "app_model_renderstatusbar"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/view.go",
+      "source_location": "L24",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_model_view",
+      "target": "app_model_rendertabs"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/view.go",
+      "source_location": "L46",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_model_view",
+      "target": "app_view_linecount"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/view.go",
+      "source_location": "L29",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_model_view",
+      "target": "app_model_renderoverview"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/view.go",
+      "source_location": "L31",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_model_view",
+      "target": "app_model_renderresults"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/view.go",
+      "source_location": "L141",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_model_renderwifiscan",
+      "target": "app_model_view"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/view.go",
+      "source_location": "L33",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_model_view",
+      "target": "app_model_renderping"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/view.go",
+      "source_location": "L35",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_model_view",
+      "target": "app_model_renderlogs"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/view.go",
+      "source_location": "L50",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_model_view",
+      "target": "app_view_clamplines"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/view.go",
+      "source_location": "L57",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_model_renderstatusbar",
+      "target": "app_view_hasresult"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/view.go",
+      "source_location": "L60",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_model_renderstatusbar",
+      "target": "app_view_findresult"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/view.go",
+      "source_location": "L82",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_model_renderstatusbar",
+      "target": "app_model_renderwifistatusvalue"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "internal/app/view.go",
+      "source_location": "L64",
+      "weight": 1.0,
+      "source": "app_model_renderstatusbar",
+      "target": "app_styles_statusstyle"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/view.go",
+      "source_location": "L87",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_model_renderwifistatusvalue",
+      "target": "app_view_wifisignallabel"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "internal/app/view.go",
+      "source_location": "L86",
+      "weight": 1.0,
+      "source": "app_model_renderwifistatusvalue",
+      "target": "app_styles_statusstyle"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/view.go",
+      "source_location": "L95",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_view_wifisignallabel",
+      "target": "app_view_parsedetails"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/view.go",
+      "source_location": "L99",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_model_renderoverview",
+      "target": "app_view_findresult"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/view.go",
+      "source_location": "L100",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_model_renderoverview",
+      "target": "app_view_renderippanel"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/view.go",
+      "source_location": "L109",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_model_renderoverview",
+      "target": "app_view_renderresulttable"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "internal/app/view.go",
+      "source_location": "L93",
+      "weight": 1.0,
+      "source": "app_model_renderoverview",
+      "target": "app_styles_statusstyle"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/view.go",
+      "source_location": "L114",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_model_renderresults",
+      "target": "app_model_filteredresults"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/view.go",
+      "source_location": "L118",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_model_renderresults",
+      "target": "app_view_renderresulttable"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/view.go",
+      "source_location": "L125",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_model_renderresults",
+      "target": "app_view_renderippanel"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/view.go",
+      "source_location": "L179",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_model_renderwifiscan",
+      "target": "app_view_linecount"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/view.go",
+      "source_location": "L187",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_model_renderwifiscan",
+      "target": "app_view_wifivisiblewindow"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/view.go",
+      "source_location": "L165",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_model_renderwifiscan",
+      "target": "app_view_renderwifinetworktable"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/view.go",
+      "source_location": "L191",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_model_renderwifiscan",
+      "target": "app_model_wifitablewidth"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/view.go",
+      "source_location": "L172",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_model_renderwifiscan",
+      "target": "app_view_fallback"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/view.go",
+      "source_location": "L174",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_model_renderwifiscan",
+      "target": "app_view_boollabel"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "internal/app/view.go",
+      "source_location": "L155",
+      "weight": 1.0,
+      "source": "app_model_renderwifiscan",
+      "target": "app_styles_statusstyle"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/view.go",
+      "source_location": "L184",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_view_renderwifinetworktable",
+      "target": "app_view_pad"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/view.go",
+      "source_location": "L199",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_view_renderwifinetworktable",
+      "target": "app_view_truncate"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/view.go",
+      "source_location": "L201",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_view_renderwifinetworktable",
+      "target": "app_view_fallback"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "internal/app/view.go",
+      "source_location": "L194",
+      "weight": 1.0,
+      "source": "app_view_renderwifinetworktable",
+      "target": "app_styles_statusstyle"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/view.go",
+      "source_location": "L152",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_model_renderping",
+      "target": "app_view_min"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "internal/app/view.go",
+      "source_location": "L134",
+      "weight": 1.0,
+      "source": "app_model_renderping",
+      "target": "app_styles_statusstyle"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/view.go",
+      "source_location": "L169",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_model_renderlogs",
+      "target": "app_view_min"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/view.go",
+      "source_location": "L197",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_view_renderresulttable",
+      "target": "app_view_pad"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/view.go",
+      "source_location": "L209",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_view_renderresulttable",
+      "target": "app_view_truncate"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "internal/app/view.go",
+      "source_location": "L204",
+      "weight": 1.0,
+      "source": "app_view_renderresulttable",
+      "target": "app_styles_statusstyle"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/view.go",
+      "source_location": "L231",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_view_renderippanel",
+      "target": "app_view_parsedetails"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/view.go",
+      "source_location": "L233",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_view_renderippanel",
+      "target": "app_view_kv"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "internal/app/view.go",
+      "source_location": "L229",
+      "weight": 1.0,
+      "source": "app_view_renderippanel",
+      "target": "app_styles_statusstyle"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/view.go",
+      "source_location": "L253",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_view_kv",
+      "target": "app_view_pad"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/view.go",
+      "source_location": "L278",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_view_hasresult",
+      "target": "app_view_findresult"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/view.go",
+      "source_location": "L294",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_view_pad",
+      "target": "app_view_truncate"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/model_test.go",
+      "source_location": "L10",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_app_model_test_go",
+      "target": "app_model_test_testmergeresultsreplacesexistingbyname"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/model_test.go",
+      "source_location": "L29",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_app_model_test_go",
+      "target": "app_model_test_testmergeresultsappendsnewresults"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/model_test.go",
+      "source_location": "L39",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_app_model_test_go",
+      "target": "app_model_test_testfilteredresultsexcludeswififromconnectivitytab"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/model_test.go",
+      "source_location": "L55",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_app_model_test_go",
+      "target": "app_model_test_testrenderstatusbarshowswifisummary"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/model_test.go",
+      "source_location": "L68",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_app_model_test_go",
+      "target": "app_model_test_teststartwifiscanifneededtriggersonemptyscantab"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/model_test.go",
+      "source_location": "L84",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_app_model_test_go",
+      "target": "app_model_test_teststartwifiscanifneededskipswhenresultsexist"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/app/styles.go",
+      "source_location": "L26",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_app_styles_go",
+      "target": "app_styles_statusstyle"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/wifi_scan.go",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_checks_wifi_scan_go",
+      "target": "checks_wifinetwork"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/wifi_scan.go",
+      "source_location": "L22",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_checks_wifi_scan_go",
+      "target": "checks_wifi_scan_scanwifinetworks"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/wifi_scan.go",
+      "source_location": "L58",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_checks_wifi_scan_go",
+      "target": "checks_wifi_scan_parsenmcliwifilist"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/wifi_scan.go",
+      "source_location": "L87",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_checks_wifi_scan_go",
+      "target": "checks_wifi_scan_parseiwscan"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/wifi_scan.go",
+      "source_location": "L142",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_checks_wifi_scan_go",
+      "target": "checks_wifi_scan_sortwifinetworks"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/wifi_scan.go",
+      "source_location": "L156",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_checks_wifi_scan_go",
+      "target": "checks_wifi_scan_wifisortkey"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/wifi_scan.go",
+      "source_location": "L169",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_checks_wifi_scan_go",
+      "target": "checks_wifi_scan_splitnmcliterse"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/wifi_scan.go",
+      "source_location": "L132",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "checks_wifinetwork",
+      "target": "checks_wifinetwork_signallabel"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/wifi_scan.go",
+      "source_location": "L27",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "checks_wifi_scan_scanwifinetworks",
+      "target": "checks_wifi_scan_parsenmcliwifilist"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/wifi_scan.go",
+      "source_location": "L49",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "checks_wifi_scan_scanwifinetworks",
+      "target": "checks_wifi_scan_parseiwscan"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "internal/checks/wifi_scan.go",
+      "source_location": "L40",
+      "weight": 1.0,
+      "source": "checks_wifi_scan_scanwifinetworks",
+      "target": "checks_system_parsewirelessinterfaces"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "internal/checks/wifi_scan.go",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "checks_wifi_scan_scanwifinetworks",
+      "target": "checks_system_shellquote"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/wifi_scan.go",
+      "source_location": "L65",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "checks_wifi_scan_parsenmcliwifilist",
+      "target": "checks_wifi_scan_splitnmcliterse"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/wifi_scan.go",
+      "source_location": "L83",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "checks_wifi_scan_parsenmcliwifilist",
+      "target": "checks_wifi_scan_sortwifinetworks"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "internal/checks/wifi_scan.go",
+      "source_location": "L70",
+      "weight": 1.0,
+      "source": "checks_wifi_scan_parsenmcliwifilist",
+      "target": "checks_system_unescapenmcliterse"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "internal/checks/wifi_scan_test.go",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "checks_wifi_scan_test_testparsenmcliwifilist",
+      "target": "checks_wifi_scan_parsenmcliwifilist"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/wifi_scan.go",
+      "source_location": "L128",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "checks_wifi_scan_parseiwscan",
+      "target": "checks_wifi_scan_sortwifinetworks"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "internal/checks/wifi_scan_test.go",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "checks_wifi_scan_test_testparseiwscan",
+      "target": "checks_wifi_scan_parseiwscan"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/wifi_scan.go",
+      "source_location": "L144",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "checks_wifi_scan_sortwifinetworks",
+      "target": "checks_wifi_scan_wifisortkey"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "internal/checks/system.go",
+      "source_location": "L304",
+      "weight": 1.0,
+      "source": "checks_system_parsenmcliactivewifi",
+      "target": "checks_wifi_scan_splitnmcliterse"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/connectivity.go",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_checks_connectivity_go",
+      "target": "checks_publicip"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/connectivity.go",
+      "source_location": "L25",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_checks_connectivity_go",
+      "target": "checks_connectivity_tcpchecker"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/connectivity.go",
+      "source_location": "L42",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_checks_connectivity_go",
+      "target": "checks_connectivity_dnschecker"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/connectivity.go",
+      "source_location": "L57",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_checks_connectivity_go",
+      "target": "checks_connectivity_publicipchecker"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/connectivity.go",
+      "source_location": "L89",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_checks_connectivity_go",
+      "target": "checks_connectivity_splitlocation"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/connectivity.go",
+      "source_location": "L97",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_checks_connectivity_go",
+      "target": "checks_connectivity_nonempty"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/connectivity.go",
+      "source_location": "L108",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_checks_connectivity_go",
+      "target": "checks_connectivity_finished"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/connectivity.go",
+      "source_location": "L34",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "checks_connectivity_tcpchecker",
+      "target": "checks_connectivity_finished"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "internal/checks/factory.go",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "checks_factory_buildwithoutpublicip",
+      "target": "checks_connectivity_tcpchecker"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/connectivity.go",
+      "source_location": "L50",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "checks_connectivity_dnschecker",
+      "target": "checks_connectivity_finished"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "internal/checks/factory.go",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "checks_factory_buildwithoutpublicip",
+      "target": "checks_connectivity_dnschecker"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/connectivity.go",
+      "source_location": "L65",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "checks_connectivity_publicipchecker",
+      "target": "checks_connectivity_finished"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/connectivity.go",
+      "source_location": "L80",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "checks_connectivity_publicipchecker",
+      "target": "checks_connectivity_splitlocation"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/connectivity.go",
+      "source_location": "L81",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "checks_connectivity_publicipchecker",
+      "target": "checks_connectivity_nonempty"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "internal/checks/factory.go",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "checks_factory_build",
+      "target": "checks_connectivity_publicipchecker"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "internal/checks/factory.go",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "checks_factory_buildpublicip",
+      "target": "checks_connectivity_publicipchecker"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "internal/checks/system.go",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "checks_commandchecker_run",
+      "target": "checks_connectivity_finished"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "internal/checks/system.go",
+      "source_location": "L98",
+      "weight": 1.0,
+      "source": "checks_system_wifichecker",
+      "target": "checks_connectivity_finished"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "internal/checks/system.go",
+      "source_location": "L147",
+      "weight": 1.0,
+      "source": "checks_system_routechecker",
+      "target": "checks_connectivity_finished"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "internal/checks/system.go",
+      "source_location": "L162",
+      "weight": 1.0,
+      "source": "checks_system_dnsconfigchecker",
+      "target": "checks_connectivity_finished"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "internal/checks/system.go",
+      "source_location": "L176",
+      "weight": 1.0,
+      "source": "checks_system_dockerchecker",
+      "target": "checks_connectivity_finished"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/system_test.go",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_checks_system_test_go",
+      "target": "checks_system_test_testparsedefaultroute"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/system_test.go",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_checks_system_test_go",
+      "target": "checks_system_test_testparseresolvconf"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/system_test.go",
+      "source_location": "L20",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_checks_system_test_go",
+      "target": "checks_system_test_testparsenmcliactivessid"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/system_test.go",
+      "source_location": "L28",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_checks_system_test_go",
+      "target": "checks_system_test_testparsenmcliactivewifi"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/system_test.go",
+      "source_location": "L28",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_checks_system_test_go",
+      "target": "checks_system_test_testparsewirelessinterfaces"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/system_test.go",
+      "source_location": "L36",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_checks_system_test_go",
+      "target": "checks_system_test_testparseiwlinkssid"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/system_test.go",
+      "source_location": "L52",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_checks_system_test_go",
+      "target": "checks_system_test_testparseiwlinksignal"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/system_test.go",
+      "source_location": "L44",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_checks_system_test_go",
+      "target": "checks_system_test_testparsedockernetworklist"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/system_test.go",
+      "source_location": "L52",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_checks_system_test_go",
+      "target": "checks_system_test_testparsedockerinspect"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/system_test.go",
+      "source_location": "L63",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_checks_system_test_go",
+      "target": "checks_system_test_testcidroverlap"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "internal/checks/system_test.go",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "checks_system_test_testparsedefaultroute",
+      "target": "checks_system_parsedefaultroute"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "internal/checks/system_test.go",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "checks_system_test_testparseresolvconf",
+      "target": "checks_system_parseresolvconf"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "internal/checks/system_test.go",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "checks_system_test_testparsenmcliactivessid",
+      "target": "checks_system_parsenmcliactivessid"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "internal/checks/system_test.go",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "checks_system_test_testparsenmcliactivewifi",
+      "target": "checks_system_parsenmcliactivewifi"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "internal/checks/system_test.go",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "checks_system_test_testparsewirelessinterfaces",
+      "target": "checks_system_parsewirelessinterfaces"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "internal/checks/system_test.go",
+      "source_location": "L38",
+      "weight": 1.0,
+      "source": "checks_system_test_testparseiwlinkssid",
+      "target": "checks_system_parseiwlinkssid"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "internal/checks/system_test.go",
+      "source_location": "L54",
+      "weight": 1.0,
+      "source": "checks_system_test_testparseiwlinksignal",
+      "target": "checks_system_parseiwlinksignal"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "internal/checks/system_test.go",
+      "source_location": "L46",
+      "weight": 1.0,
+      "source": "checks_system_test_testparsedockernetworklist",
+      "target": "checks_system_parsedockernetworklist"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "internal/checks/system_test.go",
+      "source_location": "L54",
+      "weight": 1.0,
+      "source": "checks_system_test_testparsedockerinspect",
+      "target": "checks_system_parsedockerinspect"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "internal/checks/system_test.go",
+      "source_location": "L64",
+      "weight": 1.0,
+      "source": "checks_system_test_testcidroverlap",
+      "target": "checks_system_cidroverlap"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L14",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_checks_system_go",
+      "target": "checks_system_commandchecker"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L18",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_checks_system_go",
+      "target": "checks_commandchecker"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L45",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_checks_system_go",
+      "target": "checks_system_xvpnchecker"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L64",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_checks_system_go",
+      "target": "checks_system_v2rayaservicechecker"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L80",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_checks_system_go",
+      "target": "checks_system_processchecker"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L89",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_checks_system_go",
+      "target": "checks_system_wifichecker"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L118",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_checks_system_go",
+      "target": "checks_system_routechecker"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L152",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_checks_system_go",
+      "target": "checks_system_dnsconfigchecker"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L169",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_checks_system_go",
+      "target": "checks_system_dockerchecker"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L226",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_checks_system_go",
+      "target": "checks_defaultroute"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L246",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_checks_system_go",
+      "target": "checks_system_parsedefaultroute"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L268",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_checks_system_go",
+      "target": "checks_system_parseresolvconf"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L285",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_checks_system_go",
+      "target": "checks_activewifi"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L279",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_checks_system_go",
+      "target": "checks_system_parsenmcliactivessid"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L298",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_checks_system_go",
+      "target": "checks_system_parsenmcliactivewifi"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L320",
+      "weight": 1.0,
+      "source": "internal_checks_system_go",
+      "target": "checks_system_lastunescapedcolon",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L290",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_checks_system_go",
+      "target": "checks_system_unescapenmcliterse"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L311",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_checks_system_go",
+      "target": "checks_system_parsewirelessinterfaces"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L322",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_checks_system_go",
+      "target": "checks_system_parseiwlinkssid"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L359",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_checks_system_go",
+      "target": "checks_system_parseiwlinksignal"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L332",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_checks_system_go",
+      "target": "checks_dockerlistitem"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L336",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_checks_system_go",
+      "target": "checks_system_parsedockernetworklist"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L351",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_checks_system_go",
+      "target": "checks_dockerinspectitem"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L362",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_checks_system_go",
+      "target": "checks_dockernetwork"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L373",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_checks_system_go",
+      "target": "checks_system_formatdockerdetails"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L395",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_checks_system_go",
+      "target": "checks_system_cleancell"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L409",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_checks_system_go",
+      "target": "checks_system_parsedockerinspect"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L431",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_checks_system_go",
+      "target": "checks_system_routecidrs"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L445",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_checks_system_go",
+      "target": "checks_system_cidroverlap"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L454",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_checks_system_go",
+      "target": "checks_system_readresolvconf"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L462",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_checks_system_go",
+      "target": "checks_system_firstline"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L470",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_checks_system_go",
+      "target": "checks_system_outputorerror"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L481",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_checks_system_go",
+      "target": "checks_system_stringerrors"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L491",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_checks_system_go",
+      "target": "checks_system_unique"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L503",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_checks_system_go",
+      "target": "checks_system_shellquote"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L46",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "checks_system_xvpnchecker",
+      "target": "checks_system_commandchecker"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L65",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "checks_system_v2rayaservicechecker",
+      "target": "checks_system_commandchecker"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L81",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "checks_system_processchecker",
+      "target": "checks_system_commandchecker"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L27",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "checks_commandchecker",
+      "target": "checks_commandchecker_name"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L28",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "checks_commandchecker",
+      "target": "checks_commandchecker_category"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L29",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "checks_commandchecker",
+      "target": "checks_commandchecker_run"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L37",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "checks_commandchecker_run",
+      "target": "checks_system_outputorerror"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L40",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "checks_commandchecker_run",
+      "target": "checks_system_firstline"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L96",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "checks_system_wifichecker",
+      "target": "checks_commandchecker_run"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L125",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "checks_system_routechecker",
+      "target": "checks_commandchecker_run"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L180",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "checks_system_dockerchecker",
+      "target": "checks_commandchecker_run"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L60",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "checks_system_xvpnchecker",
+      "target": "checks_system_firstline"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "internal/checks/factory.go",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "checks_factory_buildwithoutpublicip",
+      "target": "checks_system_xvpnchecker"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L76",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "checks_system_v2rayaservicechecker",
+      "target": "checks_system_firstline"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "internal/checks/factory.go",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "checks_factory_buildwithoutpublicip",
+      "target": "checks_system_v2rayaservicechecker"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "internal/checks/factory.go",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "checks_factory_buildwithoutpublicip",
+      "target": "checks_system_processchecker"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L98",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "checks_system_wifichecker",
+      "target": "checks_system_parsenmcliactivewifi"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L102",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "checks_system_wifichecker",
+      "target": "checks_system_parsewirelessinterfaces"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L103",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "checks_system_wifichecker",
+      "target": "checks_system_shellquote"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L104",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "checks_system_wifichecker",
+      "target": "checks_system_parseiwlinkssid"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L108",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "checks_system_wifichecker",
+      "target": "checks_system_parseiwlinksignal"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L112",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "checks_system_wifichecker",
+      "target": "checks_system_outputorerror"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "internal/checks/factory.go",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "checks_factory_buildwithoutpublicip",
+      "target": "checks_system_wifichecker"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L97",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "checks_system_wifichecker",
+      "target": "checks_system_parsenmcliactivessid"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L127",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "checks_system_routechecker",
+      "target": "checks_system_readresolvconf"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L128",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "checks_system_routechecker",
+      "target": "checks_system_parsedefaultroute"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L131",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "checks_system_routechecker",
+      "target": "checks_defaultroute_summary"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L147",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "checks_system_routechecker",
+      "target": "checks_system_stringerrors"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "internal/checks/factory.go",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "checks_factory_buildwithoutpublicip",
+      "target": "checks_system_routechecker"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L159",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "checks_system_dnsconfigchecker",
+      "target": "checks_system_readresolvconf"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L160",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "checks_system_dnsconfigchecker",
+      "target": "checks_system_parseresolvconf"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "internal/checks/factory.go",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "checks_factory_buildwithoutpublicip",
+      "target": "checks_system_dnsconfigchecker"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L182",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "checks_system_dockerchecker",
+      "target": "checks_system_outputorerror"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L184",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "checks_system_dockerchecker",
+      "target": "checks_system_parsedockernetworklist"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L190",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "checks_system_dockerchecker",
+      "target": "checks_system_routecidrs"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L194",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "checks_system_dockerchecker",
+      "target": "checks_system_shellquote"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L196",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "checks_system_dockerchecker",
+      "target": "checks_system_firstline"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L200",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "checks_system_dockerchecker",
+      "target": "checks_system_parsedockerinspect"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L208",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "checks_system_dockerchecker",
+      "target": "checks_system_cidroverlap"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L214",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "checks_system_dockerchecker",
+      "target": "checks_system_unique"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L221",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "checks_system_dockerchecker",
+      "target": "checks_system_formatdockerdetails"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "internal/checks/factory.go",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "checks_factory_buildwithoutpublicip",
+      "target": "checks_system_dockerchecker"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L232",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "checks_defaultroute",
+      "target": "checks_defaultroute_summary"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L291",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "checks_system_parsenmcliactivessid",
+      "target": "checks_system_parsenmcliactivewifi"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L285",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "checks_system_parsenmcliactivessid",
+      "target": "checks_system_unescapenmcliterse"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L310",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "checks_system_parsenmcliactivewifi",
+      "target": "checks_system_unescapenmcliterse"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L309",
+      "weight": 1.0,
+      "source": "checks_system_parsenmcliactivewifi",
+      "target": "checks_system_lastunescapedcolon",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L308",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "checks_system_unescapenmcliterse",
+      "target": "checks_dockernetwork_string"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L369",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "checks_dockernetwork",
+      "target": "checks_dockernetwork_string"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L392",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "checks_system_formatdockerdetails",
+      "target": "checks_dockernetwork_string"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/system.go",
+      "source_location": "L382",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "checks_system_formatdockerdetails",
+      "target": "checks_system_cleancell"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/types.go",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_checks_types_go",
+      "target": "checks_status"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/types.go",
+      "source_location": "L22",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_checks_types_go",
+      "target": "checks_result"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/types.go",
+      "source_location": "L34",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_checks_types_go",
+      "target": "checks_checker"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/types.go",
+      "source_location": "L40",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_checks_types_go",
+      "target": "checks_checkfunc"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/types.go",
+      "source_location": "L67",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_checks_types_go",
+      "target": "checks_runner"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/types.go",
+      "source_location": "L103",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_checks_types_go",
+      "target": "checks_types_newresult"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/types.go",
+      "source_location": "L117",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_checks_types_go",
+      "target": "checks_commandrunner"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/types.go",
+      "source_location": "L121",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_checks_types_go",
+      "target": "checks_shellcommandrunner"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/types.go",
+      "source_location": "L46",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "checks_checkfunc",
+      "target": "checks_checkfunc_name"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/types.go",
+      "source_location": "L47",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "checks_checkfunc",
+      "target": "checks_checkfunc_category"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/types.go",
+      "source_location": "L48",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "checks_checkfunc",
+      "target": "checks_checkfunc_run"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/types.go",
+      "source_location": "L72",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "checks_runner",
+      "target": "checks_runner_run"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/types.go",
+      "source_location": "L84",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "checks_runner_run",
+      "target": "checks_shellcommandrunner_run"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/types.go",
+      "source_location": "L123",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "checks_shellcommandrunner",
+      "target": "checks_shellcommandrunner_run"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/wifi_scan_test.go",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_checks_wifi_scan_test_go",
+      "target": "checks_wifi_scan_test_testparsenmcliwifilist"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/wifi_scan_test.go",
+      "source_location": "L26",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_checks_wifi_scan_test_go",
+      "target": "checks_wifi_scan_test_testparseiwscan"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/wifi_scan_test.go",
+      "source_location": "L48",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_checks_wifi_scan_test_go",
+      "target": "checks_wifi_scan_test_testwifinetworksignallabel"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/factory.go",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_checks_factory_go",
+      "target": "checks_factory_build"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/factory.go",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_checks_factory_go",
+      "target": "checks_factory_buildwithoutpublicip"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/factory.go",
+      "source_location": "L29",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "internal_checks_factory_go",
+      "target": "checks_factory_buildpublicip"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "internal/checks/factory.go",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "checks_factory_build",
+      "target": "checks_factory_buildwithoutpublicip"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "cmd/network-tracker/main.go",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "cmd_network_tracker_main_go",
+      "target": "network_tracker_main_main"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "readme_md",
+      "target": "network_tracker_readme_network_tracker"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "network_tracker_readme_network_tracker",
+      "target": "network_tracker_readme_quick_start",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "network_tracker_readme_network_tracker",
+      "target": "network_tracker_readme_what_it_does",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L56",
+      "weight": 1.0,
+      "source": "network_tracker_readme_network_tracker",
+      "target": "network_tracker_readme_keyboard_shortcuts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L94",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "network_tracker_readme_network_tracker",
+      "target": "network_tracker_readme_tabs"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L18",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "network_tracker_readme_network_tracker",
+      "target": "network_tracker_readme_requirements"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L104",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "network_tracker_readme_network_tracker",
+      "target": "network_tracker_readme_configuration"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L209",
+      "weight": 1.0,
+      "source": "network_tracker_readme_network_tracker",
+      "target": "network_tracker_readme_development",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L212",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "network_tracker_readme_network_tracker",
+      "target": "network_tracker_readme_notes"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L237",
+      "weight": 1.0,
+      "source": "network_tracker_readme_network_tracker",
+      "target": "network_tracker_readme_license",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "network_tracker_readme_network_tracker",
+      "target": "network_tracker_readme_features"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L32",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "network_tracker_readme_network_tracker",
+      "target": "network_tracker_readme_install"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L65",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "network_tracker_readme_network_tracker",
+      "target": "network_tracker_readme_quick_run_without_installing"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L71",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "network_tracker_readme_network_tracker",
+      "target": "network_tracker_readme_usage"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "network_tracker_readme_quick_start",
+      "target": "network_tracker_readme_codeblock_1",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "network_tracker_readme_quick_start",
+      "target": "network_tracker_readme_codeblock_2",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "network_tracker_readme_quick_start",
+      "target": "network_tracker_readme_codeblock_3",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L36",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "network_tracker_readme_install",
+      "target": "network_tracker_readme_codeblock_1"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L43",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "network_tracker_readme_install",
+      "target": "network_tracker_readme_codeblock_2"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L49",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "network_tracker_readme_install",
+      "target": "network_tracker_readme_codeblock_3"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L41",
+      "weight": 1.0,
+      "source": "network_tracker_readme_what_it_does",
+      "target": "network_tracker_readme_highlights",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L58",
+      "weight": 1.0,
+      "source": "network_tracker_readme_keyboard_shortcuts",
+      "target": "network_tracker_readme_global",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L70",
+      "weight": 1.0,
+      "source": "network_tracker_readme_keyboard_shortcuts",
+      "target": "network_tracker_readme_scan_tab",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L78",
+      "weight": 1.0,
+      "source": "network_tracker_readme_keyboard_shortcuts",
+      "target": "network_tracker_readme_ping_tab",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L87",
+      "weight": 1.0,
+      "source": "network_tracker_readme_keyboard_shortcuts",
+      "target": "network_tracker_readme_logs_tab",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L115",
+      "weight": 1.0,
+      "source": "network_tracker_readme_requirements",
+      "target": "network_tracker_readme_optional_tools",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L135",
+      "weight": 1.0,
+      "source": "network_tracker_readme_configuration",
+      "target": "network_tracker_readme_codeblock_4",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L143",
+      "weight": 1.0,
+      "source": "network_tracker_readme_configuration",
+      "target": "network_tracker_readme_codeblock_5",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L150",
+      "weight": 1.0,
+      "source": "network_tracker_readme_configuration",
+      "target": "network_tracker_readme_full_config_reference",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L186",
+      "weight": 1.0,
+      "source": "network_tracker_readme_configuration",
+      "target": "network_tracker_readme_common_tweaks",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L108",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "network_tracker_readme_configuration",
+      "target": "network_tracker_readme_codeblock_7"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L116",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "network_tracker_readme_configuration",
+      "target": "network_tracker_readme_codeblock_8"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L123",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "network_tracker_readme_configuration",
+      "target": "network_tracker_readme_codeblock_9"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L163",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "network_tracker_readme_configuration",
+      "target": "network_tracker_readme_config_examples"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L55",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "network_tracker_readme_install",
+      "target": "network_tracker_readme_codeblock_4"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L61",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "network_tracker_readme_install",
+      "target": "network_tracker_readme_codeblock_5"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L152",
+      "weight": 1.0,
+      "source": "network_tracker_readme_full_config_reference",
+      "target": "network_tracker_readme_codeblock_6",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L67",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "network_tracker_readme_quick_run_without_installing",
+      "target": "network_tracker_readme_codeblock_6"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L190",
+      "weight": 1.0,
+      "source": "network_tracker_readme_common_tweaks",
+      "target": "network_tracker_readme_codeblock_7",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L196",
+      "weight": 1.0,
+      "source": "network_tracker_readme_common_tweaks",
+      "target": "network_tracker_readme_codeblock_8",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L203",
+      "weight": 1.0,
+      "source": "network_tracker_readme_common_tweaks",
+      "target": "network_tracker_readme_codeblock_9",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L211",
+      "weight": 1.0,
+      "source": "network_tracker_readme_development",
+      "target": "network_tracker_readme_codeblock_10",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L220",
+      "weight": 1.0,
+      "source": "network_tracker_readme_development",
+      "target": "network_tracker_readme_codeblock_11",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L167",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "network_tracker_readme_config_examples",
+      "target": "network_tracker_readme_codeblock_10"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L173",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "network_tracker_readme_config_examples",
+      "target": "network_tracker_readme_codeblock_11"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L188",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "network_tracker_readme_config_examples",
+      "target": "network_tracker_readme_codeblock_12"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L195",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "network_tracker_readme_config_examples",
+      "target": "network_tracker_readme_codeblock_13"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L201",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "network_tracker_readme_config_examples",
+      "target": "network_tracker_readme_codeblock_14"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L207",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "network_tracker_readme_config_examples",
+      "target": "network_tracker_readme_codeblock_15"
+    }
+  ],
+  "hyperedges": []
+}
