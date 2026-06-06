@@ -216,8 +216,9 @@ go run ./cmd/network-tracker
 Run a single test package:
 
 ```bash
-go test ./internal/app/... -v
-go test ./internal/checks/... -v
+go test ./internal/tui/... -v
+go test ./internal/check/... -v
+go test ./internal/parse/... -v
 ```
 
 ---

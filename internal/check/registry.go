@@ -1,4 +1,4 @@
-package checks
+package check
 
 import "github.com/eskylake/network-tracker/internal/config"
 
@@ -9,20 +9,21 @@ func Build(cfg config.Config) []Checker {
 }
 
 func BuildWithoutPublicIP(cfg config.Config) []Checker {
-	var out []Checker
-	out = append(out, XVPNChecker(cfg.XVPNStatusCommand))
-	out = append(out, V2RayAServiceChecker(cfg.V2RayAStatusCommand))
-	out = append(out, ProcessChecker("v2ray process", "v2ray"))
-	out = append(out, ProcessChecker("v2raya process", "v2raya"))
-	out = append(out, WiFiChecker())
+	out := make([]Checker, 0, 8+len(cfg.TCPTargets)+len(cfg.DomainsToResolve))
+	out = append(out,
+		XVPNChecker(cfg.XVPNStatusCommand),
+		V2RayAServiceChecker(cfg.V2RayAStatusCommand),
+		ProcessChecker("v2ray process", "v2ray"),
+		ProcessChecker("v2raya process", "v2raya"),
+		WiFiChecker(),
+	)
 	for _, target := range cfg.TCPTargets {
 		out = append(out, TCPChecker(target))
 	}
 	for _, domain := range cfg.DomainsToResolve {
 		out = append(out, DNSChecker(domain))
 	}
-	out = append(out, RouteChecker(), DNSConfigChecker())
-	out = append(out, DockerChecker(cfg.DockerEnabled))
+	out = append(out, RouteChecker(), DNSConfigChecker(), DockerChecker(cfg.DockerEnabled))
 	return out
 }
 

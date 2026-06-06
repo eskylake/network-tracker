@@ -1,77 +1,172 @@
 {
   "/home/ali/app/__me/network-tracker/internal/config/config.go": {
-    "mtime": 1780586011.7302375,
-    "ast_hash": "bbc58d69df651187ed90bc17af6c1309",
-    "semantic_hash": ""
-  },
-  "/home/ali/app/__me/network-tracker/internal/app/model.go": {
-    "mtime": 1780649766.8563423,
-    "ast_hash": "4478aefd88ac2e7e691f3c91eec86e0f",
-    "semantic_hash": ""
-  },
-  "/home/ali/app/__me/network-tracker/internal/app/view.go": {
-    "mtime": 1780649767.428349,
-    "ast_hash": "22e1f9cbd81b2087260f0338b6fb706e",
-    "semantic_hash": ""
-  },
-  "/home/ali/app/__me/network-tracker/internal/app/model_test.go": {
-    "mtime": 1780649767.004344,
-    "ast_hash": "b04c894f6c0d33477e2a70e8b39ddbbf",
-    "semantic_hash": ""
-  },
-  "/home/ali/app/__me/network-tracker/internal/app/styles.go": {
-    "mtime": 1780649767.1822171,
-    "ast_hash": "6018054e2c4523355f66e0ae0e192590",
-    "semantic_hash": ""
-  },
-  "/home/ali/app/__me/network-tracker/internal/checks/connectivity.go": {
-    "mtime": 1780514195.67398,
-    "ast_hash": "bbfdb2d756b83348666ec60e1a1bbde2",
-    "semantic_hash": ""
-  },
-  "/home/ali/app/__me/network-tracker/internal/checks/system_test.go": {
-    "mtime": 1780649011.6786954,
-    "ast_hash": "7804ae06ff862cc97cb298c27197d153",
-    "semantic_hash": ""
-  },
-  "/home/ali/app/__me/network-tracker/internal/checks/system.go": {
-    "mtime": 1780649167.154618,
-    "ast_hash": "85d30851ef4de98ed9fc5ba6d3ad4274",
-    "semantic_hash": ""
-  },
-  "/home/ali/app/__me/network-tracker/internal/checks/types.go": {
-    "mtime": 1780513639.562389,
-    "ast_hash": "9363737e62585a806daa7eb6ae96c26c",
-    "semantic_hash": ""
-  },
-  "/home/ali/app/__me/network-tracker/internal/checks/factory.go": {
-    "mtime": 1780649767.7239234,
-    "ast_hash": "613b1cb6cb412b9bedd9253f8b677637",
+    "mtime": 1780749165.123401,
+    "ast_hash": "d28a4b7f39dd2379a78fc5bff89503b7",
     "semantic_hash": ""
   },
   "/home/ali/app/__me/network-tracker/cmd/network-tracker/main.go": {
-    "mtime": 1780649766.5553386,
-    "ast_hash": "f70af359d385bd5d11142636f12880b1",
+    "mtime": 1780749481.4157333,
+    "ast_hash": "2d64a31f54aaf9ec938c267380fad096",
     "semantic_hash": ""
   },
   "/home/ali/app/__me/network-tracker/README.md": {
-    "mtime": 1780649773.856976,
-    "ast_hash": "04e5f90e580ba5284ac3c2381523cbf1",
+    "mtime": 1780749552.8661718,
+    "ast_hash": "6a7416152e1cfaea36d22e790d494fd5",
     "semantic_hash": ""
   },
-  "/home/ali/app/__me/network-tracker/internal/checks/wifi_scan.go": {
-    "mtime": 1780648094.7224722,
-    "ast_hash": "975bb1340ba539adbbeaa3d3161f4274",
+  "/home/ali/app/__me/network-tracker/internal/check/registry.go": {
+    "mtime": 1780749477.893939,
+    "ast_hash": "a0e68ae24dbb4cc9cf3b634cb92a90cb",
     "semantic_hash": ""
   },
-  "/home/ali/app/__me/network-tracker/internal/checks/wifi_scan_test.go": {
-    "mtime": 1780648097.5781615,
-    "ast_hash": "23b9ad57dd07a9ed882c17979116dc42",
+  "/home/ali/app/__me/network-tracker/internal/check/wifi_scan.go": {
+    "mtime": 1780749474.7006798,
+    "ast_hash": "507127055c68cee9b3586661988625dd",
     "semantic_hash": ""
   },
-  "/home/ali/app/__me/network-tracker/internal/app/view_test.go": {
-    "mtime": 1780649767.602021,
-    "ast_hash": "0280e8e64dfd12db6f58d3e96734e188",
+  "/home/ali/app/__me/network-tracker/internal/check/wifi_status.go": {
+    "mtime": 1780749472.86778,
+    "ast_hash": "257a1db08fd844722d9b44eb794a0d56",
+    "semantic_hash": ""
+  },
+  "/home/ali/app/__me/network-tracker/internal/check/connectivity.go": {
+    "mtime": 1780749470.002337,
+    "ast_hash": "f781145cc06a991eaea1ea0fe85d3d40",
+    "semantic_hash": ""
+  },
+  "/home/ali/app/__me/network-tracker/internal/check/types.go": {
+    "mtime": 1780749462.7920806,
+    "ast_hash": "ec08d6034d31874f411e51e99e46c8f1",
+    "semantic_hash": ""
+  },
+  "/home/ali/app/__me/network-tracker/internal/check/command.go": {
+    "mtime": 1780749466.2968376,
+    "ast_hash": "9cbd71ab43bf3f3576f3f44be625870a",
+    "semantic_hash": ""
+  },
+  "/home/ali/app/__me/network-tracker/internal/check/vpn.go": {
+    "mtime": 1780749467.4168265,
+    "ast_hash": "08291a96aeafcd921258166520221099",
+    "semantic_hash": ""
+  },
+  "/home/ali/app/__me/network-tracker/internal/check/helpers.go": {
+    "mtime": 1780749465.1758494,
+    "ast_hash": "87a256910817d03ff81f988634b9ae77",
+    "semantic_hash": ""
+  },
+  "/home/ali/app/__me/network-tracker/internal/check/docker.go": {
+    "mtime": 1780749477.0343835,
+    "ast_hash": "3cc2c5255ff5c039da89e832f9b8a095",
+    "semantic_hash": ""
+  },
+  "/home/ali/app/__me/network-tracker/internal/check/names.go": {
+    "mtime": 1780749463.192872,
+    "ast_hash": "1184277617ff88f3d1228062ae3e25c6",
+    "semantic_hash": ""
+  },
+  "/home/ali/app/__me/network-tracker/internal/check/runner.go": {
+    "mtime": 1780749464.0678618,
+    "ast_hash": "1d9acf32534c662bb70b732bf6057acb",
+    "semantic_hash": ""
+  },
+  "/home/ali/app/__me/network-tracker/internal/check/routes.go": {
+    "mtime": 1780749475.3087635,
+    "ast_hash": "162fdc0bb752907163dc841f6cb086e1",
+    "semantic_hash": ""
+  },
+  "/home/ali/app/__me/network-tracker/internal/tui/model.go": {
+    "mtime": 1780749504.2017386,
+    "ast_hash": "9d5cf519b9f71535e3eca2c3b8479ba4",
+    "semantic_hash": ""
+  },
+  "/home/ali/app/__me/network-tracker/internal/tui/tabs.go": {
+    "mtime": 1780749494.0797877,
+    "ast_hash": "f6213f0ed704fc666113f21ca45c8847",
+    "semantic_hash": ""
+  },
+  "/home/ali/app/__me/network-tracker/internal/tui/helpers.go": {
+    "mtime": 1780749494.0555131,
+    "ast_hash": "a71ae2cdbdedcce3b01e18a58b369e8a",
+    "semantic_hash": ""
+  },
+  "/home/ali/app/__me/network-tracker/internal/tui/update.go": {
+    "mtime": 1780749494.0872092,
+    "ast_hash": "1aaa8192f8e4c94d7d8d330a6d859146",
+    "semantic_hash": ""
+  },
+  "/home/ali/app/__me/network-tracker/internal/tui/commands.go": {
+    "mtime": 1780749504.56174,
+    "ast_hash": "4e53c5a5120007e07b03b56794c840dc",
+    "semantic_hash": ""
+  },
+  "/home/ali/app/__me/network-tracker/internal/tui/view_test.go": {
+    "mtime": 1780749505.8127449,
+    "ast_hash": "d767bc402f022cffcc451850c0656b22",
+    "semantic_hash": ""
+  },
+  "/home/ali/app/__me/network-tracker/internal/tui/view.go": {
+    "mtime": 1780749505.6477442,
+    "ast_hash": "e70e4ed22a13fda5d44f5ae8de20dd0a",
+    "semantic_hash": ""
+  },
+  "/home/ali/app/__me/network-tracker/internal/tui/model_test.go": {
+    "mtime": 1780749505.6547441,
+    "ast_hash": "20a4a83404e1a58a93df90e3f2f5f8d9",
+    "semantic_hash": ""
+  },
+  "/home/ali/app/__me/network-tracker/internal/tui/styles.go": {
+    "mtime": 1780749494.072639,
+    "ast_hash": "37a27066f41cdfe78317f17a51d0684e",
+    "semantic_hash": ""
+  },
+  "/home/ali/app/__me/network-tracker/internal/shell/shell.go": {
+    "mtime": 1780749444.224115,
+    "ast_hash": "dfa306ee3b941e0424abd258e0b0bc61",
+    "semantic_hash": ""
+  },
+  "/home/ali/app/__me/network-tracker/internal/parse/iw_test.go": {
+    "mtime": 1780749457.0927932,
+    "ast_hash": "d83c9511b2f331b5dbd017e675032b36",
+    "semantic_hash": ""
+  },
+  "/home/ali/app/__me/network-tracker/internal/parse/nmcli_test.go": {
+    "mtime": 1780749455.661977,
+    "ast_hash": "edc7e367e704ee04628a837503c0743d",
+    "semantic_hash": ""
+  },
+  "/home/ali/app/__me/network-tracker/internal/parse/route.go": {
+    "mtime": 1780749450.5745661,
+    "ast_hash": "b24027100333405474106fc5ae440a68",
+    "semantic_hash": ""
+  },
+  "/home/ali/app/__me/network-tracker/internal/parse/nmcli.go": {
+    "mtime": 1780749446.62877,
+    "ast_hash": "9f426ff2ed1cce37c46b222efaad84ae",
+    "semantic_hash": ""
+  },
+  "/home/ali/app/__me/network-tracker/internal/parse/docker_test.go": {
+    "mtime": 1780749458.7909424,
+    "ast_hash": "7ec36545c3a102c18d37de2c1e47443e",
+    "semantic_hash": ""
+  },
+  "/home/ali/app/__me/network-tracker/internal/parse/route_test.go": {
+    "mtime": 1780749458.0646403,
+    "ast_hash": "81dd5c5fd33cd6f8223457b46b70da18",
+    "semantic_hash": ""
+  },
+  "/home/ali/app/__me/network-tracker/internal/parse/wifi.go": {
+    "mtime": 1780749449.1240947,
+    "ast_hash": "c5e59a35561ce50f7e92639a8152a482",
+    "semantic_hash": ""
+  },
+  "/home/ali/app/__me/network-tracker/internal/parse/iw.go": {
+    "mtime": 1780749448.135751,
+    "ast_hash": "a26a6f2e29f6f86db0127258d9b9417d",
+    "semantic_hash": ""
+  },
+  "/home/ali/app/__me/network-tracker/internal/parse/docker.go": {
+    "mtime": 1780749452.6930273,
+    "ast_hash": "a33e49e70be461a8e4f725ce36d1ee96",
     "semantic_hash": ""
   }
 }

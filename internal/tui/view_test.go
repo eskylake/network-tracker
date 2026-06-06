@@ -1,4 +1,4 @@
-package app
+package tui
 
 import (
 	"strings"
@@ -6,18 +6,19 @@ import (
 
 	"github.com/charmbracelet/lipgloss"
 
-	"github.com/eskylake/network-tracker/internal/checks"
+	"github.com/eskylake/network-tracker/internal/check"
+	"github.com/eskylake/network-tracker/internal/parse"
 )
 
 func TestPadUsesVisualWidthWithANSI(t *testing.T) {
-	styled := statusStyle(checks.StatusOK).Render(pad("*", wifiColInUse))
+	styled := statusStyle(check.StatusOK).Render(pad("*", wifiColInUse))
 	if lipgloss.Width(styled) != wifiColInUse {
 		t.Fatalf("styled cell width = %d, want %d", lipgloss.Width(styled), wifiColInUse)
 	}
 }
 
 func TestRenderWiFiNetworkTableAlignsColumns(t *testing.T) {
-	networks := []checks.WiFiNetwork{
+	networks := []parse.WiFiNetwork{
 		{SSID: "salam", SignalPercent: 58, Security: "WPA2", Freq: "2432 MHz", InUse: true},
 		{SSID: "Very Long Network Name", SignalPercent: 97, Security: "WPA2 WPA3", Freq: "5240 MHz"},
 	}

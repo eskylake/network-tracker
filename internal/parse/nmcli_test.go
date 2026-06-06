@@ -1,14 +1,30 @@
-package checks
+package parse
 
 import "testing"
 
-func TestParseNMCLIWiFiList(t *testing.T) {
+func TestActiveSSID(t *testing.T) {
+	raw := "no:Other\nyes:Cafe\\:Guest\\\\5G\n"
+	got := ActiveSSID(raw)
+	if got != "Cafe:Guest\\5G" {
+		t.Fatalf("unexpected ssid: %q", got)
+	}
+}
+
+func TestActiveWiFiFromNMCLI(t *testing.T) {
+	raw := "no:Tilo:97\nyes:salam:55\n"
+	got, ok := ActiveWiFiFromNMCLI(raw)
+	if !ok || got.SSID != "salam" || got.Signal != 55 {
+		t.Fatalf("unexpected active wifi: %#v ok=%v", got, ok)
+	}
+}
+
+func TestWiFiListFromNMCLI(t *testing.T) {
 	raw := "" +
 		" :DC\\:62\\:79\\:B6\\:EE\\:A8:Tilo:97:WPA2:2422 MHz\n" +
 		"*:48\\:EE\\:0C\\:DC\\:D3\\:D5:salam:58:WPA2:2432 MHz\n" +
 		" :AA\\:BB\\:CC\\:DD\\:EE\\:FF::45:WPA2:2437 MHz\n"
 
-	got := ParseNMCLIWiFiList(raw)
+	got := WiFiListFromNMCLI(raw)
 	if len(got) != 3 {
 		t.Fatalf("unexpected network count: %d", len(got))
 	}
@@ -20,28 +36,6 @@ func TestParseNMCLIWiFiList(t *testing.T) {
 	}
 	if got[2].SSID != "(hidden)" {
 		t.Fatalf("empty ssid should be hidden: %#v", got[2])
-	}
-}
-
-func TestParseIWScan(t *testing.T) {
-	raw := "" +
-		"BSS aa:bb:cc:dd:ee:01(on wlan0)\n" +
-		"\tsignal: -58.00 dBm\n" +
-		"\tSSID: Home Wifi\n" +
-		"\tfreq: 2432\n" +
-		"BSS aa:bb:cc:dd:ee:02(on wlan0)\n" +
-		"\tsignal: -72 dBm\n" +
-		"\tfreq: 5240\n"
-
-	got := ParseIWScan(raw)
-	if len(got) != 2 {
-		t.Fatalf("unexpected network count: %d", len(got))
-	}
-	if got[0].SSID != "Home Wifi" || got[0].SignalDBM != -58 || got[0].Freq != "2432 MHz" {
-		t.Fatalf("unexpected first network: %#v", got[0])
-	}
-	if got[1].SSID != "(hidden)" || got[1].SignalDBM != -72 {
-		t.Fatalf("hidden network not parsed: %#v", got[1])
 	}
 }
 

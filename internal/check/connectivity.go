@@ -1,4 +1,4 @@
-package checks
+package check
 
 import (
 	"context"
@@ -23,65 +23,68 @@ type PublicIP struct {
 }
 
 func TCPChecker(target string) Checker {
+	name := "tcp " + target
 	return CheckFunc{
-		CheckName:     "tcp " + target,
-		CheckCategory: "connectivity",
+		CheckName:     name,
+		CheckCategory: CategoryConnectivity,
 		Fn: func(ctx context.Context) Result {
 			var dialer net.Dialer
 			start := time.Now()
 			conn, err := dialer.DialContext(ctx, "tcp", target)
 			if err != nil {
-				return finished("tcp "+target, "connectivity", StatusError, "connection failed", err.Error(), start, err)
+				return finished(name, CategoryConnectivity, StatusError, "connection failed", err.Error(), start, err)
 			}
 			_ = conn.Close()
-			return finished("tcp "+target, "connectivity", StatusOK, "reachable", "", start, nil)
+			return finished(name, CategoryConnectivity, StatusOK, "reachable", "", start, nil)
 		},
 	}
 }
 
 func DNSChecker(domain string) Checker {
+	name := "dns " + domain
 	return CheckFunc{
-		CheckName:     "dns " + domain,
-		CheckCategory: "connectivity",
+		CheckName:     name,
+		CheckCategory: CategoryConnectivity,
 		Fn: func(ctx context.Context) Result {
 			start := time.Now()
 			addrs, err := net.DefaultResolver.LookupHost(ctx, domain)
 			if err != nil {
-				return finished("dns "+domain, "connectivity", StatusError, "resolution failed", err.Error(), start, err)
+				return finished(name, CategoryConnectivity, StatusError, "resolution failed", err.Error(), start, err)
 			}
-			return finished("dns "+domain, "connectivity", StatusOK, fmt.Sprintf("%d address(es)", len(addrs)), strings.Join(addrs, "\n"), start, nil)
+			return finished(name, CategoryConnectivity, StatusOK, fmt.Sprintf("%d address(es)", len(addrs)), strings.Join(addrs, "\n"), start, nil)
 		},
 	}
 }
 
 func PublicIPChecker(provider string) Checker {
 	return CheckFunc{
-		CheckName:     "public ip",
-		CheckCategory: "connectivity",
+		CheckName:     NamePublicIP,
+		CheckCategory: CategoryConnectivity,
 		Fn: func(ctx context.Context) Result {
 			start := time.Now()
 			req, err := http.NewRequestWithContext(ctx, http.MethodGet, provider, nil)
 			if err != nil {
-				return finished("public ip", "connectivity", StatusError, "invalid provider", err.Error(), start, err)
+				return finished(NamePublicIP, CategoryConnectivity, StatusError, "invalid provider", err.Error(), start, err)
 			}
-			resp, err := http.DefaultClient.Do(req)
+			client := &http.Client{Timeout: 30 * time.Second}
+			resp, err := client.Do(req)
 			if err != nil {
-				return finished("public ip", "connectivity", StatusError, "request failed", err.Error(), start, err)
+				return finished(NamePublicIP, CategoryConnectivity, StatusError, "request failed", err.Error(), start, err)
 			}
 			defer resp.Body.Close()
 			if resp.StatusCode < 200 || resp.StatusCode > 299 {
 				err := fmt.Errorf("unexpected status %s", resp.Status)
-				return finished("public ip", "connectivity", StatusError, "provider error", err.Error(), start, err)
+				return finished(NamePublicIP, CategoryConnectivity, StatusError, "provider error", err.Error(), start, err)
 			}
 			var info PublicIP
 			if err := json.NewDecoder(resp.Body).Decode(&info); err != nil {
-				return finished("public ip", "connectivity", StatusError, "parse failed", err.Error(), start, err)
+				return finished(NamePublicIP, CategoryConnectivity, StatusError, "parse failed", err.Error(), start, err)
 			}
 			lat, lon := splitLocation(info.Loc)
 			summary := strings.Join(nonEmpty(info.IP, info.City, info.Country, info.Org), " | ")
 			details := fmt.Sprintf("IP: %s\nHostname: %s\nCity: %s\nRegion: %s\nCountry: %s\nLatitude: %s\nLongitude: %s\nLocation: %s\nPostal: %s\nOrg: %s\nTimezone: %s\nProvider: %s",
 				info.IP, info.Hostname, info.City, info.Region, info.Country, lat, lon, info.Loc, info.Postal, info.Org, info.Timezone, provider)
-			return finished("public ip", "connectivity", StatusOK, summary, details, start, nil)
+			return finished(NamePublicIP, CategoryConnectivity, StatusOK, summary, details, start, nil)
 		},
 	}
 }
@@ -92,29 +95,4 @@ func splitLocation(loc string) (string, string) {
 		return "", ""
 	}
 	return strings.TrimSpace(parts[0]), strings.TrimSpace(parts[1])
-}
-
-func nonEmpty(values ...string) []string {
-	out := make([]string, 0, len(values))
-	for _, value := range values {
-		trimmed := strings.TrimSpace(value)
-		if trimmed != "" {
-			out = append(out, trimmed)
-		}
-	}
-	return out
-}
-
-func finished(name, category string, status Status, summary, details string, start time.Time, err error) Result {
-	return Result{
-		Name:       name,
-		Category:   category,
-		Status:     status,
-		Summary:    summary,
-		Details:    strings.TrimSpace(details),
-		StartedAt:  start,
-		FinishedAt: time.Now(),
-		Duration:   time.Since(start),
-		Err:        err,
-	}
 }

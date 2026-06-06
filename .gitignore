@@ -28,3 +28,4 @@ go.work
 
 # Graphify output
 graphify-out/cost.json
+graphify-out/cache

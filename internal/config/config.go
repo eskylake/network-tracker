@@ -4,6 +4,7 @@ import (
 	"errors"
 	"os"
 	"path/filepath"
+	"strings"
 	"time"
 
 	"gopkg.in/yaml.v3"
@@ -93,6 +94,9 @@ func Load() (Config, error) {
 		return Config{}, err
 	}
 	normalize(&cfg)
+	if err := cfg.Validate(); err != nil {
+		return Config{}, err
+	}
 	return cfg, nil
 }
 
@@ -130,4 +134,21 @@ func normalize(cfg *Config) {
 	if cfg.V2RayAStatusCommand == "" {
 		cfg.V2RayAStatusCommand = defaults.V2RayAStatusCommand
 	}
+}
+
+// Validate reports invalid configuration values.
+func (cfg Config) Validate() error {
+	if cfg.RefreshInterval.Duration < time.Second {
+		return errors.New("refresh_interval must be at least 1s")
+	}
+	if cfg.PublicIPRefreshInterval.Duration < 5*time.Second {
+		return errors.New("public_ip_refresh_interval must be at least 5s")
+	}
+	if cfg.CheckTimeout.Duration < time.Second {
+		return errors.New("check_timeout must be at least 1s")
+	}
+	if strings.TrimSpace(cfg.PublicIPProvider) == "" {
+		return errors.New("public_ip_provider must not be empty")
+	}
+	return nil
 }

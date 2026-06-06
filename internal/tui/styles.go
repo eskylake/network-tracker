@@ -1,9 +1,9 @@
-package app
+package tui
 
 import (
 	"github.com/charmbracelet/lipgloss"
 
-	"github.com/eskylake/network-tracker/internal/checks"
+	"github.com/eskylake/network-tracker/internal/check"
 )
 
 var (
@@ -24,13 +24,13 @@ var (
 	wifiSignalStyle  = lipgloss.NewStyle().Foreground(lipgloss.Color("220"))
 )
 
-func statusStyle(status checks.Status) lipgloss.Style {
+func statusStyle(status check.Status) lipgloss.Style {
 	switch status {
-	case checks.StatusOK:
+	case check.StatusOK:
 		return lipgloss.NewStyle().Foreground(lipgloss.Color("42")).Bold(true)
-	case checks.StatusWarning:
+	case check.StatusWarning:
 		return lipgloss.NewStyle().Foreground(lipgloss.Color("214")).Bold(true)
-	case checks.StatusError:
+	case check.StatusError:
 		return lipgloss.NewStyle().Foreground(lipgloss.Color("196")).Bold(true)
 	default:
 		return lipgloss.NewStyle().Foreground(lipgloss.Color("244")).Bold(true)
