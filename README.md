@@ -209,16 +209,7 @@ xvpn_status_command: /usr/local/bin/xvpn status
 ```bash
 git clone https://github.com/eskylake/network-tracker.git
 cd network-tracker
-go test ./...
 go run ./cmd/network-tracker
-```
-
-Run a single test package:
-
-```bash
-go test ./internal/tui/... -v
-go test ./internal/check/... -v
-go test ./internal/parse/... -v
 ```
 
 ---
