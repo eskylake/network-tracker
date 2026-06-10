@@ -226,4 +226,4 @@ go run ./cmd/network-tracker
 
 ## License
 
-MIT — see [LICENSE](LICENSE).
+see [MIT LICENSE](LICENSE).
